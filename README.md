@@ -1,5 +1,5 @@
 <div id="" align="center">    
-    <img src="https://raw.githubusercontent.com/victoriafloreshill/victoriafloreshill/main/assets/VictoriaFloresHillCrop.jpg" width="20%"/>
+    <img src="./main/assets/VictoriaFloresHillCrop.jpg" width="20%"/>
     
   </div>
   <h1 align="center">Hi 👋, I'm Victoria Flores Hill</h1>
