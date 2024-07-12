@@ -38,22 +38,10 @@
   <a href="https://www.instagram.com/victoriaFloresHill" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Victoria Flores Hill" height="30" width="40" /></a>&nbsp&nbsp&nbsp
   </p>
   
-  <hr>
+ 
   
   
-  <!-- STATS -->
-  <div align="center" margin="100px 0 0 0">
   
-  <h2 align="center">Stats</h2>
-  <h6 style="color:red">These stats are only for public repos it don't show private stats on projects for previous employers and clients.</h6>
-  
-    <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=victoriafloreshill&show_icons=true&locale=en&layout=compact" alt="VictoriaFloresHilldotcom" /></p>
-  
-    <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=victoriafloreshill&show_icons=true&locale=en" alt="VictoriaFloresHilldotcom" /></p>
-  
-    <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=victoriafloreshill&" alt="VictoriaFloresHilldotcom" /></p>
-  </div>
-  <br>
 
 
 
