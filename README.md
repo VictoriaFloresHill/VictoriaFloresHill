@@ -3,7 +3,7 @@
 </div>
   <h1 align="center">Hi 👋, I'm Victoria Flores Hill</h1>
   <h3 align="center">An HTML E-mail Developer in the Twin Cities in Minnesota</h3>
-  <h4 align="center">My name is Victoria Flores Hill an HTML E-mail Developer in the Twin Cities in Minnesota. I'm a tenured IT Professional who has fallen in love with development. Enjoy leveraging my vast IT knowledge, project experience, customer satisfation and development to solving problems for you. </h4>
+  <h4 align="center">My name is Victoria Flores Hill an HTML E-mail Developer in the Twin Cities in Minnesota. I'm a tenured IT Professional who has fallen in love with development. I enjoy leveraging my vast IT knowledge, project experience, customer satisfation and development to solve problems for you. </h4>
   
   <hr>
   
