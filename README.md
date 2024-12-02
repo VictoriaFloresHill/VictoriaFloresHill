@@ -15,15 +15,16 @@
   <div align="center">
                   <br>
                       <div align="center" >  
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="75" height="75"/> 
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="75" height="75"/>                        
-                        <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="75" height="75"/> 
-                        <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="75" height="75"/>
-                        <img src="https://www.credly.com/badges/8684a2ed-bd47-458c-b662-41b068642521/public_url" alt="Azure AI Fundamentals" title="Azure AI Fundamentals" width="75" height="75"/>
-                        <img src="https://www.credly.com/badges/8598a35a-6332-4a43-aeb8-764fc67a1f8a/public_url" alt="Azure Fundamentals" title="Azure Fundamentals" width="75" height="75"/>
-                        
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="75" height="75"/> 
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="75" height="75"/> 
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" title="html" width="75" height="75"/> 
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" title="CSS" width="75" height="75"/>                        
+                        <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" title="figma" width="75" height="75"/> 
+                        <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" title="Git" width="75" height="75"/>
+                        <a href="https://www.credly.com/badges/8598a35a-6332-4a43-aeb8-764fc67a1f8a/public_url" target="_blank" >
+                        <img src="\main\assets\microsoft-certified-azure-fundamentals.png" alt="Azure Fundamentals" title="Azure Fundamentals" width="75" height="75"/>
+                        </a>
+                        <a href="https://www.credly.com/badges/8684a2ed-bd47-458c-b662-41b068642521/public_url" target="_blank" >
+                        <img src="\main\assets\microsoft-certified-azure-ai-fundamentals.png" alt="Azure AI Fundamentals" title="Azure AI Fundamentals" width="75" height="75"/>                     
+                        </a>                                         
                       </div>
   </div>
   
@@ -36,8 +37,9 @@
   <h2 align="center">Contact Me</h2>
   <p align="center">
       &nbsp&nbsp&nbsp
-  <a href="https://www.linkedin.com/in/victoria-f-hill-31b60929" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Victoria Flores Hill" height="30" width="40" /></a>&nbsp&nbsp&nbsp
-  <a href="https://www.instagram.com/victoriaFloresHill" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Victoria Flores Hill" height="30" width="40" /></a>&nbsp&nbsp&nbsp
+  <a href="https://www.linkedin.com/in/victoria-f-hill-31b60929" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Victoria Flores Hill Linkedin" height="30" width="40" /></a>&nbsp&nbsp&nbsp
+  <a href="https://www.instagram.com/victoriaFloresHill" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Victoria Flores Hill Instagram" height="30" width="40" /></a>&nbsp&nbsp&nbsp
+    <a href="https://bsky.app/profile/victoriafloreshill.bsky.social" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/BlueSky_logo.png" alt="Victoria Flores Hill Blue Sky" height="30" width="40" /></a>&nbsp&nbsp&nbsp
   </p>
   
  
