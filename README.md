@@ -14,16 +14,24 @@
   
   <div align="center">
                   <br>
-                      <div align="center" >  
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" title="html" width="75" height="75"/> 
-                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" title="CSS" width="75" height="75"/>                        
-                        <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" title="figma" width="75" height="75"/> 
-                        <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" title="Git" width="75" height="75"/>
-                        <a href="https://www.credly.com/badges/8598a35a-6332-4a43-aeb8-764fc67a1f8a/public_url" target="_blank">
-                        <img src="\main\assets\microsoft-certified-azure-fundamentals.png" alt="Azure Fundamentals" title="Azure Fundamentals" width="75" height="75"/>
+                      <div align="center" >
+                        <a href="#">
+                          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" title="html" width="75" height="75"/>
+                         </a>
+                        <a href="#">
+                          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" title="CSS" width="75" height="75"/>
+                         </a>
+                        <a href="https://www.figma.com/" target="blank">
+                          <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" title="figma" width="75" height="75"/>
+                         </a>
+                        <a href="https://git-scm.com/" target="blank">
+                          <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" title="Git" width="75" height="75"/>
+                         </a>
+                        <a href="https://www.credly.com/badges/8598a35a-6332-4a43-aeb8-764fc67a1f8a/public_url" target="blank">
+                          <img src="\main\assets\microsoft-certified-azure-fundamentals.png" alt="Azure Fundamentals" title="Azure Fundamentals" width="75" height="75"/>
                         </a>
-                        <a href="https://www.credly.com/badges/8684a2ed-bd47-458c-b662-41b068642521/public_url" target="_blank">
-                        <img src="\main\assets\microsoft-certified-azure-ai-fundamentals.png" alt="Azure AI Fundamentals" title="Azure AI Fundamentals" width="75" height="75"/>                     
+                        <a href="https://www.credly.com/badges/8684a2ed-bd47-458c-b662-41b068642521/public_url" target="blank">
+                          <img src="\main\assets\microsoft-certified-azure-ai-fundamentals.png" alt="Azure AI Fundamentals" title="Azure AI Fundamentals" width="75" height="75"/>                     
                         </a>                                         
                       </div>
   </div>
