@@ -1,0 +1,1 @@
+This is an example of a Promotional e-mail. I recreated the Microsoft Surface email with HTML and inline CSS.
