@@ -1,0 +1,188 @@
+.our-team-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.col {
+    text-align: center;
+    cursor: pointer;
+    /* transition: transform 0.3s ease; */
+}
+
+.col:hover {
+    transform: translateY(-5px);
+}
+
+.col img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.bio {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.bio-subtitle {
+    display: block;
+    color: #666;
+}
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;  
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 11;
+    overflow-y: auto;
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: 5vh auto;
+    width: 90%;
+    max-width: 1000px;
+    padding: 2rem;
+    border: 6px double var(--color-primary);    
+    display: flex;
+    gap: 2rem;
+    animation: modalFade 0.3s ease-in-out;
+}
+
+/* @keyframes modalFade {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+} */
+
+.modal-col-1 {
+    flex: 1;
+    max-width: 400px;
+}
+
+.modal-col-1 img {
+    width: 100%;    
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.modal-col-2 {
+    flex: 1.5;
+    /* padding-right: 1rem; */
+    text-align: center;
+}
+.modal-col-2 h2 {
+    /* text-align: center; */
+    color: var(--color-primary);
+    font-size: 48px;
+    font-family:var(--font-primary-cursive);
+    font-weight: 500;
+    
+}
+.modal-col-2 p {
+    color: #919191;
+}
+.close {
+    position: absolute;
+    right: 1.5rem;
+    top: 1rem;
+    color: var(--color-primary);
+    font-size: 2rem;
+    cursor: pointer;
+    /* transition: transform 0.3s ease; */
+}
+
+/* .close:hover {
+    transform: rotate(90deg);
+} */
+
+.chef-title:before {
+    content: url(../images/bef-af.png);
+    margin-right: 15px;
+}
+.chef-title {
+    color: var(--color-black);
+    margin: 1rem 0;
+    font-size: 1.1rem;
+    text-align: center;
+    font-family: var(--font-primary);
+}
+.chef-title:after {
+    content: url(../images/bef-af.png);
+    margin-left: 15px;
+}
+.separator-modal {    
+    display: inline-flex;
+}
+.image-separator-modal {    
+    width: 60px;       
+    text-align: center;
+    
+}
+p {
+    font-family: var(--font-primary);
+    font-size: 14px;
+}
+.modal-find-us {
+    display: block;
+    margin: 1.5rem 0 0.5rem;
+    font-weight: bold;
+    color: var(--color-primary);
+    text-align: center;
+    font-family: var(--font-primary-cursive);   
+    
+}
+
+.modal-social-media ul {
+    /* display: flex; */
+    gap: 1rem;
+    list-style: none;
+    margin-top: 1rem;    
+    text-align: center;    
+    padding: 0;
+}
+
+.modal-social-media a {
+    color: var(--color-black);
+    font-size: 1.5rem;
+    transition: color 0.3s ease; 
+    margin: 10px 10px 0 10px;
+}
+
+.modal-social-media a:hover {
+    /* color: #9e7b3a; */
+    color: var(--color-primary-dark);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .modal-content {
+        flex-direction: column;
+        margin: 2vh auto;
+        width: 95%;
+    }
+
+    .modal-col-1 {
+        max-width: 100%;
+    }
+
+    .modal-col-2 {
+        padding-right: 0;
+    }
+}

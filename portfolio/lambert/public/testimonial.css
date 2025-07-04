@@ -1,0 +1,161 @@
+.testimonial {    
+    background-image:url(../images/AI/production/rustic_dining_room_New_York_crop.png);    
+    background-color: rgba(0, 0, 0, 0.3);    
+    background-position: center;
+    background-size: cover;       
+    color: var(--color-white);
+    text-align: center;               
+}
+/* Start of Testimonial container */
+.testimonial-container {               
+    background-color: var(--color-black-shade);     
+    color: var(--color-white);
+    width: 66.6%;
+    text-align: center;
+    display: inline-block;
+    padding-bottom: 60px; 
+}
+.testimonial h4 {
+    font-size: var(--fs-md-heading);
+    font-family:var(--font-primary);   
+    letter-spacing: 4px;
+    padding-top: 50px;
+    color: var(--color-white);    
+}
+.testimonial-header {
+    color: var(--color-primary);
+    font-size: 34px;
+    font-family:var(--font-primary-cursive);
+    text-align: center;
+}
+/* Start testimonial separator decor */
+.testimonial-separator-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 20px;
+    height: 5vh;
+}
+.testimonial-separator::before {
+    content: "";
+    position: absolute;
+    width: 100px; 
+    height: 1px;
+    background: var(--color-primary);
+    border: 0.25px solid var(--color-primary);
+    opacity: 0.3;
+    left: -160px;
+    top: 50%;     
+}
+.testimonial-separator {
+    width: 6px;
+    height: 6px;
+    background: var(--color-white);
+    border-radius: 50%;
+    position: relative;  
+}
+.testimonial-separator::after {
+    content: "";
+    position: absolute;
+    width: 100px; 
+    height: 1px;
+    background: var(--color-primary);
+    border: 0.25px solid var(--color-primary);
+    opacity: 0.3;
+    right: -160px;
+    top: 50%;    
+}
+/* End testimonial separator decor */
+.comments {
+    font-family:var(--font-primary);
+    font-size: var(--fs-md);
+    padding: 25px 0 25px 0;          
+}
+.comments p {
+    text-align: center;    
+}
+.comments p:first-of-type {
+    color: var(--color-white);
+}
+.customer-comments {
+    color: var(--color-primary);   
+    font-family:var(--font-primary-cursive);
+    font-size: var(--fs-md);
+    padding: 25px 0 0 0;
+    text-align: center;
+}
+/* End of Testimonial container */
+
+/* *********Media Queries for 'Testimony' section  ************/
+
+@media screen and (min-width: 1350px) and (max-width:1500px) {
+    .testimonial h4 {
+        font-size: var(--fs-3xl);
+        font-family:var(--font-primary);   
+        letter-spacing: 4px;
+        padding-top: 50px;
+        color: var(--color-white);    
+    }
+    .testimonial-header {
+        color: var(--color-primary);
+        font-size: 30px;
+        font-family:var(--font-primary-cursive);
+        text-align: center;
+    }
+    .testimonial-container .comments p {
+        text-align: center;
+        padding: 0 3% 0 3%;       
+    }
+}
+@media screen and (min-width: 769px) and (max-width:1349px) {
+    .testimonial h4 {
+        font-size: 36px;
+        font-family:var(--font-primary);   
+        letter-spacing: 4px;
+        padding-top: 50px;
+        color: var(--color-white);    
+    }
+    .testimonial-header {
+        color: var(--color-primary);
+        font-size: 28px;
+        font-family:var(--font-primary-cursive);
+        text-align: center;
+    }
+    .testimonial-container .comments p {
+        text-align: center;
+        padding: 0 3% 0 3%;        
+    }
+}
+@media screen and (max-width: 768px)  { 
+    .testimonial-container {                
+        background-color: var(--color-black-shade);     
+        color: var(--color-white);
+        width: 66.6%;
+        height: auto;
+        text-align: center;
+        display: inline-block;
+    }
+    .testimonial h4 {
+        font-size: 28px;
+        font-family:var(--font-primary);   
+        letter-spacing: 4px;
+        padding-top: 50px;
+        color: var(--color-white);    
+    }
+    .testimonial-header {
+        color: var(--color-primary);
+        font-size: var(--fs-lg);
+        font-family:var(--font-primary-cursive);
+        text-align: center;
+        letter-spacing: 3px;
+    }
+    .testimonial-separator {
+        display: none;
+    }
+    .testimonial-container .comments p {
+        text-align: center;
+        padding: 0 3% 0 3%;
+        letter-spacing: 2px;        
+    }
+}

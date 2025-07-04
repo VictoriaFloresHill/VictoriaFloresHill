@@ -1,0 +1,1216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <meta name="description" content="Restaurant Landing page with form website for https://VictoriaFloresHill.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playball&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet"> -->    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    <link rel="stylesheet" href="./public/style.css">    
+    <link rel="stylesheet" href="./public/hero.css">
+    <link rel="stylesheet" href="./public/discover.css">       
+    <link rel="stylesheet" href="./public/hours.css">    
+    <link rel="stylesheet" href="./public/our_restaurant.css">
+    <link rel="stylesheet" href="./public/weekly_deals.css">
+    <link rel="stylesheet" href="./public/our_team.css">
+    <link rel="stylesheet" href="./public/our_menu.css">
+    <link rel="stylesheet" href="./public/hot-dishes.css">     
+    <link rel="stylesheet" href="./public/dessert.css">
+    <link rel="stylesheet" href="./public/gallery.css">
+    <link rel="stylesheet" href="./public/our-contacts.css">
+    <link rel="stylesheet" href="./public/reservations.css">
+    <link rel="stylesheet" href="./public/footer.css">
+    <link rel="stylesheet" href="./public/testimonial.css">
+    <link rel="stylesheet" href="./public/modal_all.css">  
+    <title>Lambert's Restaurant</title>
+    <!-- Hotjar Tracking Code for Site 5062545 (name missing) -->
+    <script>
+        (function (h, o, t, j, a, r) {
+          h.hj =
+            h.hj ||
+            function () {
+              (h.hj.q = h.hj.q || []).push(arguments);
+            };
+          h._hjSettings = { hjid: 5062545, hjsv: 6 };
+          a = o.getElementsByTagName("head")[0];
+          r = o.createElement("script");
+          r.async = 1;
+          r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+          a.appendChild(r);
+        })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+      </script>
+  
+      <!-- Google tag (gtag.js) -->
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-GQNT3QPFKB"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+  
+        gtag("config", "G-GQNT3QPFKB");
+      </script>    
+</head>
+<body>  
+    <!-- !!!************* Start Hero container section *****************!!!   -->
+    <section class="hero-container" id="hero">
+        <!-- **** picture background overlay ******** -->
+        <div class="hero-overlay">            
+            <header class="header" id="header-logo">            
+                <div class="top-header">
+                    <a href="#">
+                        <!-- **** Start Logo ********** -->
+                        <img class="logo-white" src="/images/logo1.png">
+                        <img class="logo-dark" src="/images/logo2.png">
+                        <!-- **** End Logo ********** -->
+                    </a>
+                </div>            
+                <div class="top-nav">
+                    <nav class="links">
+                        <!-- ******** Start Responsive Nav ********** -->
+                        <div class="hamburger" onclick="toggleMenu()">                                                 
+                            <img class="fa-solid fa-bars" src="./icons/white_menu_24dp.png" alt="hamburger menu icon">
+                        </div>
+                        <!-- ******** End Responsive Nav ********** -->
+                        <!-- *************** Start Nav ********** -->                        
+                        <ul class="nav-list">                            
+                             <li><a href="#hero">HOME</a></li>
+                            <li><a href="#discover">ABOUT</a></li>
+                            <li><a href="#our-menu">MENU</a></li>
+                            <li><a href="#gallery">GALLERY</a></li>                        
+                            <li><a href="#reservation">RESERVATION</a></li>
+                            <li><a href="#our-contacts">CONTACT</a></li>
+                            <li><a href="#newsletter">NEWSLETTER</a></li>                        
+                        </ul>
+                        <!-- *************** End Nav ********** --> 
+                    </nav>
+                </div>                
+            </header>
+            <!-- !!!************* Start Hero section *****************!!!   -->               
+            <section class="hero">
+                <!-- ******* Start Gold Decor *********** -->
+                <div class="hero-image-separator-gold">
+                    <img src="./images/color-separator.png"> 
+                </div>
+                <!-- ******* End Gold Decor *********** -->                  
+                <h1>
+                    Welcome to Lambert
+                </h1>
+                <h2 class="welcome-h2">
+                    FINE DINNING AT IT'S BEST
+                </h2>
+                <!-- ********** Start White Star - Half Circle Gold Decor ******** -->
+                <div class="hero-circle-decor-container">                
+                    <div class="half-circle-gold">                                                         
+                    <a href="#"><i class="fa fa-star" id="fa-star"></i></a>            
+                    </div> 
+                </div>
+                <!-- ********** End White Star - Half Circle Gold Decor ******** -->                   
+            </section>
+            <!-- !!!************* End Hero section *****************!!!   -->
+        </div>
+    </section>    
+    <!-- !!!************* End Hero container section *****************!!!   -->
+    <!-- !!!************* Start of Discover section *****************!!!   -->
+    <section class="discover" id="discover">
+        <!-- *********** Start of Discovery container *********** -->         
+        <div class="discover-container">
+            <!-- *********** Start Column 1 image *********** --> 
+            <div class="discover-col1">                                
+                <h2 id="discover">Discover</h2>
+                <div>                
+                    <h3 >Our Story</h3>                    
+                </div>
+                <!-- ******* Start Discovery gold decor *********** -->                      
+                <div class="image-separator-gold">
+                    <img src="./images/color-separator.png"> 
+                </div> 
+                <!-- ******* End Discovery gold decor *********** -->                           
+                <p class="discover-span">
+                    Imagine a restaurant that masterfully combines the prestige of winning multiple James Beard awards with the lively charm of a fun, welcoming atmosphere. This establishment is a beacon of culinary excellence, celebrated for its innovative dishes, remarkable consistency, and impeccable attention to detail—all hallmarks of a James Beard-recognized venue.
+                    Despite its accolades, the restaurant maintains a vibrant and approachable ambiance, ensuring that guests feel at ease and have a fantastic time while enjoying world-class cuisine. It's the perfect blend of sophistication and playfulness, catering to food enthusiasts who value both extraordinary flavors and memorable experiences. Whether you're there for a special occasion or just a casual outing, this restaurant redefines fine dining with its unique ability to create joy through food and laughter. A place where the art of cooking meets the art of having fun!        
+                </p>
+                <span class="discover-menu-span">
+                    <a href="#" class="discover-menu" id="discover-menu">DISCOVER OUR MENU</a> 
+                </span>                                              
+            </div>
+            <!-- *********** End Column 1 image *********** --> 
+            <!-- ******* Start white circle with chevron Decor *********** -->        
+            <div class="white-circle-container">        
+                <div class="chevron">                    
+                    <a href="#discover"><i class="fa fa-angle-double-down"></i></a>
+                </div>
+            <div>
+            <!-- ******* End white circle with chevron Decor *********** -->            
+        </div>
+        <!-- *********** End of Discovery container *********** -->                   
+    </section>
+    <!-- !!!************* End of Discover section *****************!!!   -->       
+    <!-- !!!************* Start of Hours section *****************!!!   -->
+    <section class="hours">
+        <!-- **** Start hours overlay ****** --> 
+        <div class="hours-overlay">
+            <div class="box">
+                <h4>OPENING HOURS</h4>
+                <P>Contact For Reservations</P>
+                <!-- ******** Start Separator Decor ********* -->
+                <div class="hours-separator"></div>
+                <!-- ******* End Separator Decor ********** -->
+                <div class="hours-container">
+                    <!-- ************* Start column 1 ************** -->
+                    <div class="hours-days">
+                        <span class="col1">Monday to </span>
+                        <span class="col1-break">Thursday</span>
+                        <div class="hours-time">
+                            <p>
+                                11:00
+                            </p>
+                            <p>
+                                22:00
+                            </p>
+                        </div>
+                    </div>
+                    <!-- ************* End column 1 ************** -->
+                    <!-- ********** Start column 2 ************** -->                
+                    <div class="hours-days">
+                        <span class="col2">Friday to </span>
+                        <span class="col2-break">Sunday</span>
+                        <div class="hours-time">
+                            <p>
+                                11:00
+                            </p>
+                            <p>
+                                23:00
+                            </p>
+                        </div>
+                    </div>
+                    <!-- *********** End column 1 ************** -->                
+                </div>
+                <p class="hours-phone">+1(111)123-4567</p>
+                <p class="hours-reservation">
+                    <a href="#reservation">
+                        Online
+                    </a>
+                </p>                             
+            </div>
+            <!-- ************* Start Hours spike decor ************** -->
+            <div class="hours-spiked"></div>
+            <!-- ************* End Hours spike decor ************** -->
+        </div>
+        <!-- **** End hours overlay ****** -->             
+    </section>
+    <!-- !!!************* End of Hours section *****************!!!   -->
+    <!-- !!!************* Start of Our Restaurant section *****************!!!   -->
+    <section class="our_restaurant">
+        <!-- ******* Start of column 1 ********   -->
+        <div class="restaurant_col1">                                 
+            <p><img src="images/AI/production/dining room_ restaurant_crop2.png" alt="Dinning Room of one of the Restaurants.">
+            </p>                                                                                  
+        </div>
+        <!-- ******* End of column 1 ********   -->
+        <!-- ******* Start of column 2 ********   -->
+        <div class="restaurant_col2">
+            <h2 id="restaurant">Our Restaurants</h2>
+            <h3>As Good as You Imagine</h3>
+            <div class="image-separator-gold">
+                <img src="./images/color-separator.png"> 
+            </div> 
+            <p class="restaurant-span">
+                Lambert has won multiple awards from the James Beard Foundation including best New York Chef 2022 and 2023 and best Florida Chef 2024. Aside from their awards, the restaurant is a lively, welcoming place designed for not just a meal but, a destination. The atmosphere is electric and full of good vibes. With a focus on both outstanding food and a memorable ambiance, this team ensures every visit is an adventure worth sharing. Whether you want a quite table to "people watch" or be "in the middle of it all", Lambert doesn't disappoint.       
+            </p>
+            <div>
+                <a href="#gallery" class="our_story" id="our_story">VIEW GALLERY</a>
+            </div>                                                 
+        </div>
+        <!-- ******* Start of column 2 ********   -->           
+    </section>
+    <!-- !!!************* End of Our Restaurant section *****************!!!   -->
+    <!-- !!!************* Start of Weekly Deals section *****************!!!   -->
+    <section class="weekly-deals">
+        <!-- **** Start deals overlay ****** --> 
+        <div class="deals-overlay">      
+            <h4>WEEKLY DEALS</h4>
+            <P class="weekly-subtitle">Subject to Availability</P>
+            <!-- Start Weekly separator decor -->
+            <div class="weekly-separator-container">
+                <div class="weekly-deals-separator"></div>
+            </div>
+            <!-- End Weekly separator decor -->
+            <!-- **************** Start of Weekly Deals container *****************   -->                       
+            <div class="deals-container">
+                <div class="deals">
+                    <!-- Monday special -->
+                    <h3 class="week-days">MONDAY</h3>                                                     
+                    <div class="menu-item">
+                        <span class="menu-text">Sirlion Burger with Lyonaise Potatoes</span>
+                        <!-- Dots decor -->
+                        <span class="dot"></span>
+                        <span class="deals-price">$26</span>
+                    </div>
+                    <!-- Tuesday special -->        
+                    <h3 class="week-days">TUESDAY</h3>
+                    <div class="menu-item">
+                        <span class="menu-text">Softshell Crab with Seasonal Vegatables</span>
+                        <!-- Dots decor -->
+                        <span class="dot"></span>
+                        <span class="deals-price">$46</span>
+                    </div>
+                    <!-- Wednesday special -->                    
+                    <h3 class="week-days">WEDNESDAY</h3>
+                    <div class="menu-item">
+                        <span class="menu-text">Miso Chicken with Seasonal Vegetables</span>
+                        <!-- Dots decor -->
+                        <span class="dot"></span>
+                        <span class="deals-price">$26</span>
+                    </div>
+                    <!-- Thursday special -->                    
+                    <h3 class="week-days">THURSDAY</h3>
+                    <div class="menu-item">
+                        <span class="menu-text">Lasagna with Spinach and Ricotta Cheese</span>
+                        <!-- Dots decor -->
+                        <span class="dot"></span>
+                        <span class="deals-price">$30</span>
+                    </div>
+                </div>
+            </div>
+            <!-- **************** End of Weekly Deals container *****************   -->
+            <!-- *** Start Online Reservation link ***    -->
+            <div>
+                <p class="online-res">
+                    <a href="#reservation">
+                        ONLINE RESERVATION
+                    </a>
+                </p>                
+            </div>
+            <!-- *** End Online Reservation link ***    -->
+            <!-- ************* Start Deals spike decor ************** -->
+            <div class="deals-spiked"></div>
+            <!-- ************* End Deals spike decor ************** -->
+        </div>
+        <!-- **** End deals overlay ****** -->           
+    </section>
+    <!-- !!!************* End of Weekly Deals section *****************!!!   -->
+    <!-- !!!************* Start of Our Team section *****************!!!   -->
+    <section class="our-team">
+        <h4>Our Team</h4>
+        <p class="team-subtitle">HIGH-CLASS PROFESSIONAL SERVICE</p>
+        <!-- Start Our Team gold decor -->
+        <div class="image-separator-gold">
+            <img src="./images/color-separator.png"> 
+        </div>
+        <!-- End Our Team gold decor -->
+        <p class="team-description">A "culinary dream team" as one food reviewer wrote, has been assembled from around the country with experiences around the world, blending diverse backgrounds and flavors into something extraordinary. This dynamic group of chefs from the bustling kitchens of New York, and the vibrant culinary scene in Florida, together, crafted a menu that celebrates quality and creativity, using only the freshest ingredients to deliver dishes that not only taste divine but tell a story.</p>
+        <!-- ******** Start Our Team Separator Decor ********* -->
+        <div class="team-separator-container">
+            <div class="our-team-separator">                       
+            </div> 
+        </div>
+        <!-- ******** End Our Team Separator Decor ********* -->
+        <!-- *** Start Our Team Container ***** -->               
+        <div class="our-team-container">
+            <!-- Chef Bio 1 -->
+            <div class="col">
+                <span class="team-info"></span>
+                <img src="images/AI/production/1.jpg" alt="Executive Chef Andy Moore" onclick="openModal('modal1')">
+                <span class="bio">Andy Moore</span>
+                <span class="bio-subtitle">Executive Chef in Miami</span>
+            </div>
+            <!-- Chef Bio 2 -->        
+            <div class="col">
+                <span class="team-info"></span>
+                <img src="images/AI/production/2.jpg" alt="Executive Chef Mark Randall" onclick="openModal('modal2')">
+                <span class="bio">Mark Randall</span>
+                <span class="bio-subtitle">Executive Chef in Orlando</span>
+            </div>
+            <!-- Chef Bio 3 -->
+            <div class="col">
+                <span class="team-info"></span>
+                <img src="images/AI/production/3.jpg" alt="Executive Chef Jackie Taylor" onclick="openModal('modal3')">
+                <span class="bio">Jackie Taylor</span>
+                <span class="bio-subtitle">Executive Chef in the NYC</span>
+            </div>
+            <!-- Chef Bio 4 -->
+            <div class="col">
+                <span class="team-info"></span>
+                <img src="images/AI/production/4.jpg" alt="Executive Chef Jason Collins" onclick="openModal('modal4')">
+                <span class="bio">Jason Collins</span>
+                <span class="bio-subtitle">Executive Chef in NYC</span>
+            </div>                  
+        </div>
+        <!-- *** End Our Team Container ***** -->
+        <!--    !!!!!  ****************** Start Chef Bio Models ********************* !!!!   -->
+        <!-- Start Modal 1 Chef Bio 1-->        
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+                <!-- Start use of JavaScript to close each popup -->
+                <span class="close" onclick="closeModal('modal1')">&times;</span>
+                <!-- End use of JavaScript to close each popup -->
+                <div class="modal-col-1">
+                    <!-- Chef 1 image -->
+                    <img src="images/AI/production/1.jpg" alt="Executive Chef Andy Moore">
+                </div>
+                <div class="modal-col-2">
+                    <h2>Andy Moore</h2>
+                    <h3 class="chef-title">EXECUTIVE CHEF IN MIAMI</h3>
+                    <!-- Start Modal Separator Decor -->
+                    <div>
+                        <img src="./images/color-separator.png" class="image-separator-modal" alt="Separator">
+                    </div>
+                    <!-- End Modal Separator Decor -->
+                    <p>Andy Moore won the James Beard award for best Florida Chef 2024. Moore is a graduate of the Culanry Arts program at City College of San Francisco. He trained overseas with Executive Chef Franz Roland in Burgandy, France. Moore moved to Miami with his family and worked his way up to Executive Chef in 2022.</p>
+                    <span class="modal-find-us">Find Us On:</span>
+                    <!-- Start Social Media for Model -->
+                    <div class="modal-social-media">
+                        <ul>
+                            <il>
+                                <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>                   
+                            </il>
+                            <il>
+                                <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>                   
+                            </il>
+                            <il>
+                                <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>                     
+                            </il>                                      
+                            <il>
+                                <a href="#" target="_blank">
+                                    <i class="fa fa-youtube" aria-hidden="true"></i> 
+                                </a>                                         
+                            </il>
+                            <il>
+                                <a href="#" target="_blank"><i class="fa fa-pinterest"></i></a>
+                            </il>                            
+                        </ul>
+                    </div>
+                    <!-- End Social Media for Model -->
+                </div>
+            </div>
+        </div>
+        <!-- End Modal 1 Chef Bio 1-->         
+        <!-- Start Modal 2 Chef Bio 2--> 
+        <div id="modal2" class="modal">
+            <div class="modal-content">
+                <!-- Start use of JavaScript to close each popup -->
+                <span class="close" onclick="closeModal('modal2')">&times;</span>
+                <!-- End use of JavaScript to close each popup -->
+                <!-- *********** Start of Column 1 **************** -->
+                <div class="modal-col-1">
+                    <!-- Chef 2 image -->
+                    <img src="images/AI/production/2.jpg" class="col1-midtown-west" alt="Executive Chef Mark Randall">
+                </div>
+                <!-- *********** End of Column 1 **************** -->
+                <!-- *********** Start of Column 2 **************** -->
+                <div class="modal-col-2">
+                    <h2>Mark Randall</h2>
+                    <h3 class="chef-title">EXECUTIVE CHEF IN ORLANDO</h3>
+                    <!-- Start Modal Separator Decor -->
+                    <div>
+                        <img src="./images/color-separator.png" class="image-separator-modal" alt="separator decor">
+                    </div>
+                    <!-- End Modal Separator Decor -->
+                    <p>Mark Randall is a graduate of the Culanry Arts program in Boston. Trained overseas with Executive Chef Joshua Brailsford in London, England. Moved to Orlando as a Sous Chef and was hired as an Executive Chef 3 years later. Contributor to the local show "Spicy Vegan."</p>
+                    <span class="modal-find-us">Find Us On:</span>
+                    <!-- Start Social Media for Model -->
+                    <div class="modal-social-media">
+                        <ul>
+                            <il>
+                                <a href="#" target="_blank"><i class="fa fa-facebook"></i>
+                                </a>                   
+                            </il>
+                            <il>
+                                <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>                   
+                            </il>
+                            <il>
+                                <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>                     
+                            </il>                                      
+                            <il>
+                                <a href="#" target="_blank">
+                                    <i class="fa fa-youtube" aria-hidden="true"></i> 
+                                </a>                                         
+                            </il>
+                            <il>
+                                <a href="#" target="_blank"><i class="fa fa-pinterest"></i></a>
+                            </il>                            
+                        </ul>
+                    </div>
+                    <!-- End Social Media for Model -->
+                </div>
+                <!-- *********** End of Column 1 **************** -->
+            </div>
+        </div>
+        <!-- End Modal 2 Chef Bio 2--> 
+        <!-- Start Modal 3 Chef Bio 3--> 
+        <div id="modal3" class="modal">
+            <div class="modal-content">
+                <!-- Start use of JavaScript to close each popup -->
+                <span class="close" onclick="closeModal('modal3')">&times;</span>
+                <!-- End use of JavaScript to close each popup -->
+                <!-- *********** Start of Column 1 **************** -->
+                <div class="modal-col-1">
+                    <!-- Chef 3 image -->
+                    <img src="images/AI/production/3.jpg" class="col1-midtown-west" alt="Executive Chef Jackie Taylor">
+                </div>
+                <!-- *********** End of Column 1 **************** -->
+                <!-- *********** Start of Column 2 **************** -->
+                <div class="modal-col-2">
+                    <h2>Jackie Taylor</h2>
+                    <h3 class="chef-title">EXECUTIVE CHEF IN NYC</h3>
+                    <!-- Start Modal Separator Decor -->
+                    <div>
+                        <img src="./images/color-separator.png" class="image-separator-modal" alt="separator decor">
+                    </div>
+                    <!-- End Modal Separator Decor -->                    
+                    <p>Jackie Taylor won the James Beard award for best New York Chef 2022 and 2023. A graduate of the Culinary Arts program at City College of San Francisco. Taylor was a Sous Chef in NYC with Executive Chef John Riley, a James Beard award winner himself in 2002, 2005 and 2006. Taylor was promoted to Executive Chef at the Midtown-West location in 2021. You might say that "cooking is in her DNA", her grandfather was a cook at the famed "Gingerbread House" in Oakland, CA. Taylor's father was a Sous Chef at Original Joe's in San Francisco, CA. Jackie was "intrigued by the science of cooking growing up" but, don't let her down play her artful side of cooking as Taylor's awards have demonstrated she is one of the most brilliant and innovative new chefs on the scene.</p>
+                    <span class="modal-find-us">Find Us On:</span>
+                    <!-- Start Social Media for Model -->
+                    <div class="modal-social-media">
+                        <ul>
+                            <il>
+                                <a href="#" target="_blank"><i class="fa fa-facebook"></i>
+                                </a>                   
+                            </il>
+                            <il>
+                                <a href="#" target="_blank"><i class="fa fa-twitter"></i>
+                                </a>                   
+                            </il>
+                            <il>
+                                <a href="#" target="_blank"><i class="fa fa-instagram"></i>
+                                </a>                     
+                            </il>                                      
+                            <il>
+                                <a href="#" target="_blank">
+                                    <i class="fa fa-youtube" aria-hidden="true"></i> 
+                                </a>                                         
+                            </il>
+                            <il>
+                                <a href="#" target="_blank"><i class="fa fa-pinterest"></i></a>
+                            </il>                            
+                        </ul>
+                    </div>
+                    <!-- End Social Media for Model -->
+                </div>
+                <!-- *********** End of Column 2 **************** -->
+            </div>
+        </div>
+        <!-- End Modal 3 Chef Bio 3--> 
+        <!-- Start Modal 4 Chef Bio 4--> 
+        <div id="modal4" class="modal">
+            <div class="modal-content">
+                <!-- Start use of JavaScript to close each popup -->
+                <span class="close" onclick="closeModal('modal4')">&times;</span>
+                <!-- End use of JavaScript to close each popup -->
+                <!-- *********** Start of Column 1 **************** -->                
+                <div class="modal-col-1">
+                    <!-- Chef 4 image -->
+                    <img src="images/AI/production/4.jpg" class="col1-midtown-west" alt="Executive Chef Jason Collins">
+                </div>                
+                <!-- *********** End of Column 1 **************** -->
+                <!-- *********** Start of Column 2 **************** -->
+                <div class="modal-col-2">
+                    <h2>Jason Collins</h2>
+                    <h3 class="chef-title">EXECUTIVE CHEF IN NYC</h3>
+                    <!-- Start Modal Separator Decor -->
+                    <div class="separator-modal">
+                        <img src="./images/color-separator.png" class="image-separator-modal" alt="separator decor">
+                    </div>
+                    <!-- End Modal Separator Decor -->
+                    <p>Jason Collins is a graduate of the Culinary Arts program in New York. Collins worked as a Sous Chef at the famous "Jacks" for several years. Collins train under French Chef Marc Sanz in Montreal, Quebec, Canada learning all he could from the master chef before returning to NY. Collins was promoted to Executive Chef at the NYC Midtown-East location in 2023.</p>
+                    <span class="modal-find-us">Find Us On:</span>
+                    <!-- Start Social Media for Model -->
+                    <div class="modal-social-media">
+                        <ul>
+                            <il>
+                                <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>                   
+                            </il>
+                            <il>
+                                <a href="#" target="_blank"><i class="fa fa-twitter"></i>
+                                </a>                   
+                            </il>
+                            <il>
+                                <a href="#" target="_blank"><i class="fa fa-instagram"></i>
+                                </a>                     
+                            </il>                                      
+                            <il>
+                                <a href="#" target="_blank">
+                                    <i class="fa fa-youtube" aria-hidden="true"></i> 
+                                </a>                                         
+                            </il>
+                            <il>
+                                <a href="#" target="_blank"><i class="fa fa-pinterest"></i></a>
+                            </il>                            
+                        </ul>
+                    </div>
+                    <!-- End Social Media for Model -->
+                </div>
+                <!-- *********** End of Column 2 **************** -->
+            </div>
+        </div>
+        <!-- End Modal 4 Chef Bio 4-->
+        <!--    !!!!!  ****************** End Chef BIO Models ********************* !!!!   -->         
+    </section>
+    <!-- !!!************* End of Our Team section *****************!!!   -->
+    <!-- !!!************* Start of Our Menu section *****************!!!   -->
+    <section class="our-menu" id="our-menu">
+        <!-- **** Start Our Menu overlay ****** --> 
+        <div class="our-menu-overlay">            
+            <h4>OUR MENU</h4>
+            <p>Expanded Menu Changes Weekly</p>
+            <!-- ** Start Our Menu separator Decor ** -->
+            <div class="separator-container">
+                <div class="our-menu-separator"></div>
+            </div>
+            <!-- ** End Our Menu separator Decor ** -->
+            <!--  Start Our Menu spike decor  -->
+            <div class="our-menu-spiked"></div>
+            <!--  End Our Menu spike decor -->
+        </div>
+        <!-- **** End Our Menu overlay ****** -->                 
+    </section>
+    <!-- !!!************* End of Our Menu section *****************!!!   -->
+    <!-- !!!************* Start of Hot Dishes section *****************!!!   -->    
+    <section class="hot-dishes">
+        <h4>Hot Dishes</h4>
+        <P>SOME OF OUR BEST-LOVED</P>
+        <!-- ******** Start separator gold Decor ********* -->
+        <div class="image-separator-gold">
+                <img src="./images/color-separator.png"> 
+        </div>
+        <!-- ******** End Separator gold decor ********* -->
+        <!-- ************* Start column 1 ************** -->
+        <div class="dishes-col1">
+            <ul>
+                <li>
+                    <!-- Dish 1 -->
+                    <div class="dishes-choice">
+                        <span class="dishes-choice-title">New York Strip</span>                         
+                        <span class="dishes-dot"></span>
+                        <span class="dishes-price">$60</span>                        
+                    </div>
+                    <div class="item-dish">
+                        USDA Prime, full bodied 16 oz cut, slightly firmer than a ribeye.
+                    </div>
+                </li>
+                <li>
+                    <!-- Dish 2 -->
+                    <div class="dishes-choice">
+                        <span class="dishes-choice-title">Grill Salmon</span>                         
+                        <span class="dishes-dot"></span>
+                        <span class="dishes-price">$30</span>
+                    </div>
+                    <div class="item-dish">
+                        Grilled with lemon, butter and herbs.
+                    </div>
+                </li>
+                <li>
+                    <!-- Dish 3 -->
+                    <div class="dishes-choice">
+                        <span class="dishes-choice-title">Steak Burger</span>                         
+                        <span class="dishes-dot"></span>
+                        <span class="dishes-price">$20</span>
+                    </div>
+                    <div class="item-dish">
+                        Half pound ground steak, smoked cheddar cheese, lettuce and tomato, artisan roll.
+                    </div>
+                </li>            
+            </ul>
+        </div>
+        <!-- ************* End column 1 ************** -->
+        <!-- ************* Start column 2 ************** -->
+        <div class="dishes-col2">
+            <ul>
+                <li>
+                    <!-- Dish 4 -->
+                    <div class="dishes-choice">
+                        <span class="dishes-choice-title">Garlic Crusted Sea Bass</span>                        
+                        <span class="dishes-dot"></span>
+                        <span class="dishes-price">$48</span>
+                    </div>
+                    <div class="item-dish">
+                        Chilean sea bass, panko-garlic crust, lemon butter, baby spinach.
+                    </div>
+                </li>
+                <li>
+                    <!-- Dish 5 -->
+                    <div class="dishes-choice">
+                        <span class="dishes-choice-title">Yellow Curry Chicken</span>                         
+                        <span class="dishes-dot"></span>
+                        <span class="dishes-price">$30</span>
+                    </div>
+                    <div class="item-dish">
+                        Chucks of tender chicken in a coconut yellow curry.
+                    </div>
+                </li>
+                <!--  ****  Start Hot Dishes - Chef Selection containter *** -->
+                <div class="chef-selection-container">
+                    <li>                   
+                        <span class="dishes-chef-select">Chef Selection</span>
+                        <div class="item-title">
+                            <!-- Dish 6 - Chef Selection -->
+                            <div class="dishes-choice">
+                                <span class="dishes-choice-title">Lyonnaise Potatoes</span>                    
+                                <span class="dishes-dot"></span>
+                                <span class="dishes-price">$15</span>
+                            </div> 
+                        </div>
+                        <div class="item-subtitle">
+                            Caramelized onions, fresh thyme, garlic butter.
+                        </div>
+                    </li>                     
+                </div>
+                <!--  ****  End Hot Dishes - Chef Selection containter *** -->            
+            </ul>
+        </div>
+        <!-- ************* Start column 2 ************** -->        
+    </section>
+    <!-- !!!************* End of Hot Dishes section *****************!!!   -->
+    <!-- !!!************* Start of Dessert section *****************!!!   -->
+    <!--  Start top Dessert separator Decor  -->  
+    <div class="top-dessert-separator-container">
+        <div class="top-dessert-separator"></div>
+    </div>
+    <!--  End top Dessert separator Decor  -->       
+    <section class="dessert">
+        <h4>Dessert</h4>
+        <P>SWEET WAY TO END YOUR MEAL</P>
+        <!-- ** start gold decor ** -->
+        <div class="image-separator-gold">
+            <img src="./images/color-separator.png"> 
+        </div>
+        <!-- ** End gold decor ** -->
+        <!-- ************** Start Dessert Container ************ -->
+        <div class="dessert-container">
+            <!-- *** Start Dessert column 1 *** -->
+            <div class="dessert-col1">
+                <ul>                
+                    <li>
+                        <!-- Dessert 1                         -->
+                        <div class="dessert-choice">
+                            <span class="dessert-choice-title">Cheese Cake</span>                                                                          
+                            <span class="dessert-dot"></span>
+                            <span class="dessert-price" >$15</span>
+                        </div>
+                        <div class="item-dessert">
+                            Creamy homemade cheescake served with fresh berries.
+                        </div>                         
+                    </li>
+                    <li>
+                        <!-- Dessert 2                         -->                        
+                        <div class="dessert-choice">
+                            <span class="dessert-choice-title">French Press Coffee</span>                             
+                            <span class="dessert-dot"></span>
+                            <span class="dessert-price" >$4.50 - $8.50</span>
+                        </div>
+                        <div class="item-dessert">
+                            Small (2 Cups) $4.50 | Large (4 Cups) $8.50
+                        </div>                        
+                    </li>
+                    <!-- Start of Dessert Sale-20 container                        -->
+                    <div class="sale-20-container">
+                        <li>                    
+                            <span class="sale-20">
+                                Sale - 20%
+                            </span>
+                            <div class="dessert-title">
+                                <!-- Dessert 3                         -->
+                                <div class="dessert-choice">
+                                    <span class="dessert-choice-title">Chocolate Sin Cake</span>                                     
+                                    <span class="dessert-dot"></span>
+                                    <span class="dessert-price" >$10</span>
+                                </div>
+                            </div>
+                            <div class="dessert-subtitle">
+                                Flourless chocolate cake blended with espresso.
+                            </div>                    
+                        </li>
+                    </div>
+                    <!-- End of Dessert Sale-20 container                        -->
+                    <li>
+                        <!-- Dessert 4                         -->
+                        <div class="dessert-choice">
+                            <span class="dessert-choice-title">Banana Cream Pie</span>                            
+                            <span class="dessert-dot"></span>
+                            <span class="dessert-price" >$15</span>                            
+                        </div>
+                        <div class="item-dessert">
+                            Layers of homemade custard, fresh bananas and real whipped cream.
+                        </div>
+                    </li>            
+                </ul>
+            </div>
+            <!-- *** End Dessert column 1 *** -->
+            <!-- *** Start Dessert column 2 *** -->
+            <div class="dessert-col2">
+                <ul>
+                    <li>
+                        <!-- Dessert 5                         -->
+                        <div class="dessert-choice">
+                            <span class="dessert-choice-title">Cr&#232;me Br&#251;l&#233;e</span>                            
+                            <span class="dessert-dot"></span>
+                            <span class="dessert-price">$15</span>
+                        </div>
+                        <div class="item-dessert">
+                            Classic creole vanilla custard, garnished with whole vanilla beans.
+                        </div>
+                    </li>
+                    <li>
+                        <!-- Dessert 6                         -->
+                        <div class="dessert-choice">
+                            <span class="dessert-choice-title">Charcuterie Board</span>                            
+                            <span class="dessert-dot"></span>
+                            <span class="dessert-price">$35</span>
+                        </div>
+                        <div class="item-dessert">
+                            A mix of quality cheeses, meats and ganishes.
+                        </div>
+                    </li>
+                    <li>
+                        <!-- Dessert 7                         -->
+                        <div class="dessert-choice">
+                            <span class="dessert-choice-title">Vanilla Ice Cream / Seasonal Sorbet</span>                             
+                            <span class="dessert-dot"></span>
+                            <span class="dessert-price">$8</span>
+                        </div>
+                        <div class="item-dessert">
+                            Freshly made French Vanilla Ice Cream or Sorbet made with locally sourced fruit.
+                        </div>
+                    </li>                
+                    <li>
+                        <!-- Dessert 8                         -->
+                        <div class="dessert-choice">
+                            <span class="dessert-choice-title">Warm Apple Crumb Tart</span>               
+                            <span class="dessert-dot"></span>
+                            <span class="dessert-price">$13</span>
+                        </div>   
+                        <div class="item-dessert">
+                            Granny Smith apples baked in a flaky pastry with streusel crust, served with French vanilla ice cream.
+                        </div>
+                    </li>                 
+                </ul>
+            </div>
+            <!-- *** End Dessert column 2 *** -->
+        </div>
+        <!-- ************** End Dessert Container ************ -->  
+    </section>
+    <!--  Start bottom Dessert separator Decor  --> 
+    <div class="bottom-dessert-separator-container">
+        <div class="bottom-dessert-separator"></div>
+    </div>
+    <!--  End bottom Dessert separator Decor  --> 
+    <!-- !!!************* End of Dessert section *****************!!!   -->
+    <!-- !!!************* Start of Gallery section *****************!!!   -->  
+    <section class="gallery" id="gallery">
+        <!-- ** Start of Gallery overlay **   -->
+        <div class="gallery-overlay">
+            <h4>OUR GALLERY</h4>
+            <p>Booking a table online is easy</p>
+            <!-- Start Gallery spikes decor             -->
+            <div class="gallery-spiked"></div>
+            <!-- End Gallery spikes decor             --> 
+        </div>
+        <!-- ** End of Dessert overlay **   -->
+    </section>
+    <!-- !!!************* End of Gallery section *****************!!!   -->
+    <!-- ********* Start Grid Layout for Picture Gallery with Grid-template-area by id *********** -->
+    <section class="gallery-pictures">
+        <!-- Start Gallery pictures separator decor -->
+        <div class="gallery-separator-container">
+            <div class="gallery-separator"></div>
+        </div>
+        <!-- End Gallery pictures separator decor -->
+        <!-- ***** Start of Gallery Pictures container ***** -->
+        <div class="gallery-pictures-container">
+            <!-- Picture 1                                      -->
+            <div class="gallery-pictures" id="first">              
+                <img src="images/AI/production/garlic prawns_sm.png" alt="Garlic prawns on a wooden plank">
+            </div>
+            <!-- Picture 2                                      -->
+            <div class="gallery-pictures" id="second">
+                <img src="images/AI/production/grilled_salmon_ 1280 x 1080 .jpg" alt="grill salmon with rosemary">                
+            </div>
+            <!-- Picture 3                                      -->
+            <div class="gallery-pictures" id="third">
+                <img src="images/AI/production/chicken_cacciatore.jpg" alt="chicken caccitore in a black bowl">                               
+            </div>
+            <!-- Picture 4                                      -->
+            <div class="gallery-pictures" id="fourth">
+                <img src="images/AI/production/butternut_squash_ soup.jpg" alt="bowl of butternut squash soup">
+            </div>
+            <!-- Picture 5                                      -->
+            <div class="gallery-pictures" id="fifth">
+                <img src="images/AI/production/burger_1280x 1080.jpg" class="gallery-20" alt="cheese burger with purple onion">
+            </div>
+            <!-- Picture 6                                      -->
+            <div class="gallery-pictures" id="sixth">
+                <img src="images/AI/production/crème-brûlée_ vanilla.jpg" alt="creme brulee garnish with whole vanilla beans">                 
+            </div>
+            <!-- Picture 7                                      -->
+            <div class="gallery-pictures" id="seventh">                
+                 <img src="images/AI/production/charcuterie_board _wooden_ plank.jpg" alt="charcuterie board with cheese, salami and olives">
+            </div>
+            <!-- Picture 8                                      -->
+            <div class="gallery-pictures" id="eighth">
+                <img src="images/AI/production/dining room_ restaurant_crop2.png" alt="rustic dinning room with bar">
+            </div>             
+        </div>
+        <!-- ***** End of Gallery Pictures container ***** --> 
+    </section>
+    <!-- ********* End Grid Layout for Picture Gallery with Grid-template-area by id *********** -->    
+    <!-- *********** Start of the Reservation form section ******************* -->    
+    <section class="reservation" id="reservation">
+        <div class="reservation-header">
+            <!-- **** Start Reservation overlay ****** --> 
+            <div class="reservation-overlay">
+                <h4>MAKE ONLINE RESERVATION</h4>
+                <P>Booking a table online is easy</P>
+                <!-- ******  Start Reservation spike decor *******-->
+                <div class="reservation-spiked"></div>
+                <!-- ******  End Reservation spike decor ********-->
+            </div>
+            <!-- **** End Reservation overlay ****** -->
+        </div> 
+        <!-- ************* Start Reservation container ************* -->       
+        <div class="reservation-container">            
+            <h3>
+                RESERVATION INFO
+            </h3>
+            <!-- **** Start Reservation gold Decor **** -->
+            <div class="image-separator-gold">
+                <img src="./images/color-separator.png"> 
+            </div>
+            <!-- **** End Reservation gold Decor **** -->
+            <!-- Start Reservation separator Decor -->
+            <div class="reservation-separator-container">
+                <div class="reservation-separator"></div>
+            </div>
+            <!-- End Reservation separator Decor -->
+            <!-- Start of Reservation form -- Not setup to POST anywhere                                                            -->
+            <form action="https://victoriafloreshill.kit.com/reservation" method="post" class="reservation-form" name="reservation-form" id="reservation-form">
+                <!-- ***** Start of Reservation column 1 ***** -->
+                <div class="reservation-col1">
+                    <div class="res-headers">                
+                        <span class="book-table">BOOK A TABLE</span>                
+                    </div>                    
+                    <label for="location" hidden>Location</label>                    
+                    <select name="location" class="location" id="location" required>
+                        <!-- Location 1 -->
+                        <option value="NYC-Midtown-West">
+                            New York City - NY - Midtown-West
+                        </option>
+                        <!-- Location 2 -->
+                        <option value="NYC-Midtown-East">
+                            New York City - NY - Midtown-East
+                        </option>
+                        <!-- Location 3 -->
+                        <option value="Orlando">
+                            Orlando - Florida
+                        </option>
+                        <!-- Location 4 -->                        
+                        <option value="Miami">
+                            Miami - Florida
+                        </option>
+                    </select>                    
+                    <label for="date" hidden>Date</label>
+                    <input type="date" name="date" placeholder="Date" id="date" required>
+                    <label for="time" hidden>Time</label>
+                    <input type="time" placeholder="Time" name="time" id="time" required>                    
+                    <label for="res_number" hidden>Reservation For ...</label>
+                    <!-- Number of people for Reservation                                 -->
+                    <select name="res_number" class="res_number" placeholder="2 people" id="res_number" required>
+                        <option>
+                            1 person
+                        </option>
+                        <option>
+                            2 people
+                        </option>
+                        <option>
+                            3 people
+                        </option>
+                        <option>
+                            4 people
+                        </option>
+                        <option>
+                            5 people
+                        </option>
+                        <option>
+                            6 people
+                        </option>
+                        <option>
+                            7 people
+                        </option>
+                        <option>
+                            8 people
+                        </option>
+                        <option>
+                            9 people
+                        </option>
+                        <option>
+                            10 people
+                        </option>
+                        <option>
+                            11 people
+                        </option>
+                        <option>
+                            12 people
+                        </option>
+                        <option>
+                            Contact us for parties over 12 people
+                        </option>
+                    </select>                     
+                </div>
+                <!-- ***** End of Reservation column 1 ***** -->
+                <!-- ***** Start of Reservation column 2 ***** -->                
+                <div class="reservation-col2">
+                    <div class="res-headers">
+                        <span class="contact-details">CONTACT DETAILS</span>
+                    </div>                     
+                    <label for="firstname" hidden>First Name</label>
+                    <input type="text" name="firstname" placeholder="First Name" id="firstname">
+                    <label for="lastname" hidden>Last Name</label>
+                    <input type="text" name="lastname" placeholder="Last Name" id="lastname">                    
+                    <label for="email" hidden>e-mail</label>
+                    <input type="email" name="email" placeholder="myemail@provider.com" id="email">                    
+                    <label for="phone" hidden>phone</label>
+                    <input type="phone" name="phone" placeholder="area code + phone" id="phone" required>
+                    <label for="message" hidden >Message</label>
+                    <textarea name="message" class="message" id="message" placeholder="I would also like to request ...">                        
+                    </textarea>                                                   
+                </div>
+                <!-- start form button -->
+                <div class="button-container">
+                    <button type="submit" class="submit-res">
+                        Make a Reservation
+                    </button>
+                </div>
+                <!-- End form button -->                                                                                                                                
+            </form>
+            <!-- ***** End of Reservation column  ***** -->
+            <!-- End of Reservation form -- Not setup to POST anywhere                                                            -->             
+        </div>
+        <!-- ************* End Reservation container ************* -->                      
+    </section>
+    <!-- *********** End of the Reservation form section ******************* -->
+    <!-- ****************** Start of Our Contacts heading section **************** -->
+    <section class="our-contacts-heading">
+        <!-- **** Start Our Contacts overlay ****** --> 
+        <div class="our-contacts-overlay">
+            <h4>OUR CONTACTS</h4>
+            <P class="our-contacts-find-us">Where to find us</P>
+            <!-- * Start Our Contacts spike decor * -->
+            <div class="our-contacts-spiked"></div>
+            <!-- * End Our Contacts spike decor * -->
+        </div>
+        <!-- **** End Our Contacts overlay ****** -->  
+    </section>
+    <!-- ****************** End of Our Contacts heading section **************** -->
+    <!-- ****************** Start of Our Contacts section **************** -->
+    <section class="our-contacts" id="our-contacts">
+        <!-- ***** Start Our Contacts container ***** -->
+        <div class="our-contacts-container">
+            <!-- *** Start of column 1  ***        -->
+            <div class="contact-col1">            
+                <div class="contact-col1-col1">
+                    <p class="contact-info">CONTACT INFO</p>
+                    <p class="contact-col1-summary"> Let us know if there is something we can do to make your experience even more memorable. You can count on our highly skill professional wait staff to provide superb service and hospitality.
+                    </p>
+                </div>
+            </div>
+            <!-- *** End of column 1  ***        -->
+            <!-- *** Start of column 2  ***        -->                              
+            <div class="contact-col2">
+                <div class="contact-col2-col1">
+                    <!-- Location and address 1 -->
+                    <div class="contact-address">
+                        <h4 class="contact-heading">
+                            LAMBERT - NYC-Midtown-West                        
+                        </h4>
+                        <div class="contact-container">                           
+                            <p>112 West 52nd Street, New York, NY 10019</p>
+                            <p>+1(111) 123-4567</p>
+                            <p>MidtownWest@LamertRestarant.com
+                            </p>
+                        </div> 
+                    </div>
+                    <!-- Location and address 2 -->
+                    <div class="contact-address">
+                        <h4 class="contact-heading">
+                            LAMBERT - NYC-Midtown-East                        
+                        </h4>
+                        <div class="contact-container">                                   
+                            <p>115 5th Avenue, New York, NY 10019</p>
+                            <p>+1(111) 123-4577</p>
+                            <p>MidtownEast@LamertRestarant.com</p>
+                        </div>  
+                    </div>                                               
+                </div>                           
+            </div>
+            <!-- *** End of column 2  ***        -->
+            <!-- *** Start of column 3  ***        -->
+            <div class="contact-col3">
+                <div class="contact-col3-col1">
+                    <!-- Location and address 3 -->
+                    <div class="contact-address">
+                        <h4 class="contact-heading"> 
+                            LAMBERT - ORLANDO                    
+                        </h4>
+                        <div class="contact-container">                                  
+                            <p style="font-family: 'Source Sans Pro', sans-serif;;">7601 Dr. Phillips Blvd, Orlando, FL 32819</p>
+                            <p>+1(111) 123-4555</p>
+                            <p>Orlando@LamertRestarant.com</p>
+                        </div> 
+                    </div>
+                    <!-- Location and address 4 -->
+                    <div class="contact-address">
+                        <h4 class="contact-heading"> 
+                            LAMBERT - MIAMI                    
+                        </h4>
+                        <div class="contact-container">                                  
+                            <p>200 Biscayne Boulevard Way, Miami, FL 33131</p>                        
+                            <p>+1(111) 123-4444</p>
+                            <p>Miami@LamertRestarant.com</p>                        
+                        </div> 
+                    </div>    
+                </div>  
+            </div>
+            <!-- *** End of column 3  ***        -->
+        </div>
+        <!-- ***** End Our Contacts container ***** --> 
+    </section>
+    <!-- ****************** End of Our Contacts section **************** -->
+     <!-- ********** Start of Testimonial section ************** -->
+    <section class="testimonial">
+        <!-- **** Start of Testimonial container **** -->
+        <div class="testimonial-container">                              
+            <h4>
+                TESTIMONIALS
+            </h4>
+            <p class="testimonial-header">
+                What people are saying ...
+            </p>
+            <!-- *** Start Testimonial separator *** -->
+            <div class="testimonial-separator-container">
+                <div class="testimonial-separator"></div>
+            </div>
+            <!-- *** End Testimonial separator *** -->
+            <!-- Testimonial 1                        -->
+            <div class="comments">
+                <p>"The food was extrondinary! Quite simply the best birthday dinner I've ever experienced."</p>
+                <p class="customer-comments">Sara Cater</p>
+            </div>
+            <!-- Testimonial 2                        -->
+            <div class="comments">
+                <p>"My wife absolutely loved the food, 'it was amazing' and the wait staff were so entertaining. We had a blast!"</p>
+                <p class="customer-comments">Mark and Tessa Carlin</p>
+            </div>
+            <!-- Testimonial 3                        -->
+            <div class="comments">
+                <p>"I'm a regular here and whenever I have clients from out of town, this is our first stop!"</p>
+                <p class="customer-comments">Rebecca A. Johnson</p>
+            </div>            
+        </div>
+        <!-- **** End of Testimonial container **** --> 
+    </section>
+    <!-- ********** End of Testimonial section **************     -->
+    <!-- *********************** Start of Footer section ************** -->
+    <footer>
+        <!-- *** Start gold dot separator decor *** -->
+        <div class="circle-decor-container">        
+            <div class="footer-separator-gold"></div>
+            <div class="footer-half-circle-black"></div>
+        </div>
+        <!-- *** End gold dot separator decor *** -->
+        <!-- ******** start Footer container ******** -->
+        <div class="footer-container">
+            <!-- ** start column 1 ** -->
+            <div class="footer-col1">
+                <p class="footer-about-us">ABOUT US</p>
+                <p class="footer-summary">
+                    Welcome to Lambert where our dedicated team is committed to bring you a unique dinning experience.
+                    Our Restaurants are conveniently location in the heart of the city where landmarks are within walking distance. While you are our guest, we have made it our mission to bring you extraordinary food by our award winning team, the best service and a great time. Make a reservation at one of our locations and we'll take care of the rest.
+                </p>
+            </div>
+            <!-- ** End column 1 ** -->
+            <!-- ** start column 2 ** -->
+            <div class="footer-col2">
+                <h4 class="footer-find-us">Find Us</h4>
+                <!-- ** Start footer social media ** -->
+                <ul>
+                    <il>
+                        <a><i class="fa fa-facebook"></i></a>                   
+                    </il>
+                    <il>
+                        <a><i class="fa fa-twitter"></i></a>                   
+                    </il>
+                    <il>
+                        <a><i class="fa fa-instagram"></i></a>                     
+                    </il>                                      
+                    <il>
+                        <a>
+                            <i class="fa fa-youtube" aria-hidden="true"></i> 
+                        </a>                                         
+                    </il>
+                    <il>
+                        <a><i class="fa fa-pinterest"></i></a>
+                    </il>                    
+                </ul>
+                <!-- ** End footer social media ** -->                     
+            </div>
+            <!-- ** End column 2 ** -->
+            <!-- ** start column 3 ** -->
+            <div class="footer-col3">
+                <h4 class="footer-newsletter" id="newsletter">
+                    NEWSLETTER 
+                </h4>                               
+                <!-- ****  Start Form from kit.com with script *** -->
+                <script src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+                <form action="https://app.kit.com/forms/7899369/subscriptions" class="seva-form formkit-form" method="post" data-sv-form="7899369" data-uid="4eb2569aa7" data-format="inline" data-version="5" data-options="{&quot;settings&quot;:{&quot;after_subscribe&quot;:{&quot;action&quot;:&quot;redirect&quot;,&quot;success_message&quot;:&quot;&quot;,&quot;redirect_url&quot;:&quot;https://victoriafloreshill.kit.com/newsletter&quot;},&quot;analytics&quot;:{&quot;google&quot;:null,&quot;fathom&quot;:null,&quot;facebook&quot;:null,&quot;segment&quot;:null,&quot;pinterest&quot;:null,&quot;sparkloop&quot;:null,&quot;googletagmanager&quot;:null},&quot;modal&quot;:{&quot;trigger&quot;:&quot;timer&quot;,&quot;scroll_percentage&quot;:null,&quot;timer&quot;:5,&quot;devices&quot;:&quot;all&quot;,&quot;show_once_every&quot;:15},&quot;powered_by&quot;:{&quot;show&quot;:true,&quot;url&quot;:&quot;https://kit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic&quot;},&quot;recaptcha&quot;:{&quot;enabled&quot;:false},&quot;return_visitor&quot;:{&quot;action&quot;:&quot;show&quot;,&quot;custom_content&quot;:&quot;&quot;},&quot;slide_in&quot;:{&quot;display_in&quot;:&quot;bottom_right&quot;,&quot;trigger&quot;:&quot;timer&quot;,&quot;scroll_percentage&quot;:null,&quot;timer&quot;:5,&quot;devices&quot;:&quot;all&quot;,&quot;show_once_every&quot;:15},&quot;sticky_bar&quot;:{&quot;display_in&quot;:&quot;top&quot;,&quot;trigger&quot;:&quot;timer&quot;,&quot;scroll_percentage&quot;:null,&quot;timer&quot;:5,&quot;devices&quot;:&quot;all&quot;,&quot;show_once_every&quot;:15}},&quot;version&quot;:&quot;5&quot;}" min-width="400 500 600 700 800"><div data-style="clean"><ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul><div data-element="fields" data-stacked="false" class="seva-fields formkit-fields"><div class="formkit-field"><div class="newsletter-container"><input class="formkit-input" name="email_address" aria-label="Email Address" placeholder="Email Address" required="" type="email" style="color: #919191; background-color: var(--color-dark); border: 0; border-radius: 1px; font-weight: 100;"></div><button data-element="submit" class="formkit-submit formkit-submit" style="color: rgb(197, 157, 95); background-color: black; border-radius: 1px; font-weight: 400;"><div class="formkit-spinner"><div></div><div></div><div></div></div><span class=""><i class="fa fa-envelope"></i></span></button></div></div><div class="formkit-powered-by-convertkit-container"><a href="https://kit.com/features/forms? utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic" data-element="powered-by" class="formkit-powered-by-convertkit" data-variant="light" target="_blank" rel="nofollow">Built with Kit</a></div></div><style>.formkit-form[data-uid="4eb2569aa7"] *{box-sizing:border-box;}.formkit-form[data-uid="4eb2569aa7"]{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}.formkit-form[data-uid="4eb2569aa7"] legend{border:none;font-size:inherit;margin-bottom:10px;padding:0;position:relative;display:table;}.formkit-form[data-uid="4eb2569aa7"] fieldset{border:0;padding:0.01em 0 0 0;margin:0;min-width:0;}.formkit-form[data-uid="4eb2569aa7"] body:not(:-moz-handler-blocked) fieldset{display:table-cell;}.formkit-form[data-uid="4eb2569aa7"] h1,.formkit-form[data-uid="4eb2569aa7"] h2,.formkit-form[data-uid="4eb2569aa7"] h3,.formkit-form[data-uid="4eb2569aa7"] h4,.formkit-form[data-uid="4eb2569aa7"] h5,.formkit-form[data-uid="4eb2569aa7"] h6{color:inherit;font-size:inherit;font-weight:inherit;}.formkit-form[data-uid="4eb2569aa7"] h2{font-size:1.5em;margin:1em 0;}.formkit-form[data-uid="4eb2569aa7"] h3{font-size:1.17em;margin:1em 0;}.formkit-form[data-uid="4eb2569aa7"] p{color:inherit;font-size:inherit;font-weight:inherit;}.formkit-form[data-uid="4eb2569aa7"] ol:not([template-default]),.formkit-form[data-uid="4eb2569aa7"] ul:not([template-default]),.formkit-form[data-uid="4eb2569aa7"] blockquote:not([template-default]){text-align:left;}.formkit-form[data-uid="4eb2569aa7"] p:not([template-default]),.formkit-form[data-uid="4eb2569aa7"] hr:not([template-default]),.formkit-form[data-uid="4eb2569aa7"] blockquote:not([template-default]),.formkit-form[data-uid="4eb2569aa7"] ol:not([template-default]),.formkit-form[data-uid="4eb2569aa7"] ul:not([template-default]){color:inherit;font-style:initial;}.formkit-form[data-uid="4eb2569aa7"] .ordered-list,.formkit-form[data-uid="4eb2569aa7"] .unordered-list{list-style-position:outside !important;padding-left:1em;}.formkit-form[data-uid="4eb2569aa7"] .list-item{padding-left:0;}.formkit-form[data-uid="4eb2569aa7"][data-format="modal"]{display:none;}.formkit-form[data-uid="4eb2569aa7"][data-format="slide in"]{display:none;}.formkit-form[data-uid="4eb2569aa7"][data-format="sticky bar"]{display:none;}.formkit-sticky-bar .formkit-form[data-uid="4eb2569aa7"][data-format="sticky bar"]{display:block;}.formkit-form[data-uid="4eb2569aa7"] .formkit-input,.formkit-form[data-uid="4eb2569aa7"] .formkit-select,.formkit-form[data-uid="4eb2569aa7"] .formkit-checkboxes{width:100%;}.formkit-form[data-uid="4eb2569aa7"] .formkit-button,.formkit-form[data-uid="4eb2569aa7"] .formkit-submit{border:0;border-radius:5px;color:#ffffff;cursor:pointer;display:inline-block;text-align:center;font-size:15px;font-weight:500;cursor:pointer;margin-bottom:15px;overflow:hidden;padding:0;position:relative;vertical-align:middle;}.formkit-form[data-uid="4eb2569aa7"] .formkit-button:hover,.formkit-form[data-uid="4eb2569aa7"] .formkit-submit:hover,.formkit-form[data-uid="4eb2569aa7"] .formkit-button:focus,.formkit-form[data-uid="4eb2569aa7"] .formkit-submit:focus{outline:none;}.formkit-form[data-uid="4eb2569aa7"] .formkit-button:hover > span,.formkit-form[data-uid="4eb2569aa7"] .formkit-submit:hover > span,.formkit-form[data-uid="4eb2569aa7"] .formkit-button:focus > span,.formkit-form[data-uid="4eb2569aa7"] .formkit-submit:focus > span{background-color:rgba(0,0,0,0.1);}.formkit-form[data-uid="4eb2569aa7"] .formkit-button > span,.formkit-form[data-uid="4eb2569aa7"] .formkit-submit > span{display:block;-webkit-transition:all 300ms ease-in-out;transition:all 300ms ease-in-out;padding:12px 24px;}.formkit-form[data-uid="4eb2569aa7"] .formkit-input{background:#ffffff;font-size:15px;padding:12px;border:1px solid #e3e3e3;-webkit-flex:1 0 auto;-ms-flex:1 0 auto;flex:1 0 auto;line-height:1.4;margin:0;-webkit-transition:border-color ease-out 300ms;transition:border-color ease-out 300ms;}.formkit-form[data-uid="4eb2569aa7"] .formkit-input:focus{outline:none;border-color:#1677be;-webkit-transition:border-color ease 300ms;transition:border-color ease 300ms;}.formkit-form[data-uid="4eb2569aa7"] .formkit-input::-webkit-input-placeholder{color:inherit;opacity:0.8;}.formkit-form[data-uid="4eb2569aa7"] .formkit-input::-moz-placeholder{color:inherit;opacity:0.8;}.formkit-form[data-uid="4eb2569aa7"] .formkit-input:-ms-input-placeholder{color:inherit;opacity:0.8;}.formkit-form[data-uid="4eb2569aa7"] .formkit-input::placeholder{color:inherit;opacity:0.8;}.formkit-form[data-uid="4eb2569aa7"] [data-group="dropdown"]{position:relative;display:inline-block;width:100%;}.formkit-form[data-uid="4eb2569aa7"] [data-group="dropdown"]::before{content:"";top:calc(50% - 2.5px);right:10px;position:absolute;pointer-events:none;border-color:#4f4f4f transparent transparent transparent;border-style:solid;border-width:6px 6px 0 6px;height:0;width:0;z-index:999;}.formkit-form[data-uid="4eb2569aa7"] [data-group="dropdown"] select{height:auto;width:100%;cursor:pointer;color:#333333;line-height:1.4;margin-bottom:0;padding:0 6px;-webkit-appearance:none;-moz-appearance:none;appearance:none;font-size:15px;padding:12px;padding-right:25px;border:1px solid #e3e3e3;background:#ffffff;}.formkit-form[data-uid="4eb2569aa7"] [data-group="dropdown"] select:focus{outline:none;}.formkit-form[data-uid="4eb2569aa7"] [data-group="checkboxes"]{text-align:left;margin:0;}.formkit-form[data-uid="4eb2569aa7"] [data-group="checkboxes"] [data-group="checkbox"]{margin-bottom:10px;}.formkit-form[data-uid="4eb2569aa7"] [data-group="checkboxes"] [data-group="checkbox"] *{cursor:pointer;}.formkit-form[data-uid="4eb2569aa7"] [data-group="checkboxes"] [data-group="checkbox"]:last-of-type{margin-bottom:0;}.formkit-form[data-uid="4eb2569aa7"] [data-group="checkboxes"] [data-group="checkbox"] input[type="checkbox"]{display:none;}.formkit-form[data-uid="4eb2569aa7"] [data-group="checkboxes"] [data-group="checkbox"] input[type="checkbox"] + label::after{content:none;}.formkit-form[data-uid="4eb2569aa7"] [data-group="checkboxes"] [data-group="checkbox"] input[type="checkbox"]:checked + label::after{border-color:#ffffff;content:"";}.formkit-form[data-uid="4eb2569aa7"] [data-group="checkboxes"] [data-group="checkbox"] input[type="checkbox"]:checked + label::before{background:#10bf7a;border-color:#10bf7a;}.formkit-form[data-uid="4eb2569aa7"] [data-group="checkboxes"] [data-group="checkbox"] label{position:relative;display:inline-block;padding-left:28px;}.formkit-form[data-uid="4eb2569aa7"] [data-group="checkboxes"] [data-group="checkbox"] label::before,.formkit-form[data-uid="4eb2569aa7"] [data-group="checkboxes"] [data-group="checkbox"] label::after{position:absolute;content:"";display:inline-block;}.formkit-form[data-uid="4eb2569aa7"] [data-group="checkboxes"] [data-group="checkbox"] label::before{height:16px;width:16px;border:1px solid #e3e3e3;background:#ffffff;left:0px;top:3px;}.formkit-form[data-uid="4eb2569aa7"] [data-group="checkboxes"] [data-group="checkbox"] label::after{height:4px;width:8px;border-left:2px solid #4d4d4d;border-bottom:2px solid #4d4d4d;-webkit-transform:rotate(-45deg);-ms-transform:rotate(-45deg);transform:rotate(-45deg);left:4px;top:8px;}.formkit-form[data-uid="4eb2569aa7"] .formkit-alert{background:#f9fafb;border:1px solid #e3e3e3;border-radius:5px;-webkit-flex:1 0 auto;-ms-flex:1 0 auto;flex:1 0 auto;list-style:none;margin:25px auto;padding:12px;text-align:center;width:100%;}.formkit-form[data-uid="4eb2569aa7"] .formkit-alert:empty{display:none;}.formkit-form[data-uid="4eb2569aa7"] .formkit-alert-success{background:#d3fbeb;border-color:#10bf7a;color:#0c905c;}.formkit-form[data-uid="4eb2569aa7"] .formkit-alert-error{background:#fde8e2;border-color:#f2643b;color:#ea4110;}.formkit-form[data-uid="4eb2569aa7"] .formkit-spinner{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;height:0px;width:0px;margin:0 auto;position:absolute;top:0;left:0;right:0;width:0px;overflow:hidden;text-align:center;-webkit-transition:all 300ms ease-in-out;transition:all 300ms ease-in-out;}.formkit-form[data-uid="4eb2569aa7"] .formkit-spinner > div{margin:auto;width:12px;height:12px;background-color:#fff;opacity:0.3;border-radius:100%;display:inline-block;-webkit-animation:formkit-bouncedelay-formkit-form-data-uid-4eb2569aa7- 1.4s infinite ease-in-out both;animation:formkit-bouncedelay-formkit-form-data-uid-4eb2569aa7- 1.4s infinite ease-in-out both;}.formkit-form[data-uid="4eb2569aa7"] .formkit-spinner > div:nth-child(1){-webkit-animation-delay:-0.32s;animation-delay:-0.32s;}.formkit-form[data-uid="4eb2569aa7"] .formkit-spinner > div:nth-child(2){-webkit-animation-delay:-0.16s;animation-delay:-0.16s;}.formkit-form[data-uid="4eb2569aa7"] .formkit-submit[data-active] .formkit-spinner{opacity:1;height:100%;width:50px;}.formkit-form[data-uid="4eb2569aa7"] .formkit-submit[data-active] .formkit-spinner ~ span{opacity:0;}.formkit-form[data-uid="4eb2569aa7"] .formkit-powered-by[data-active="false"]{opacity:0.35;}.formkit-form[data-uid="4eb2569aa7"] .formkit-powered-by-convertkit-container{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;width:100%;margin:10px 0;position:relative;}.formkit-form[data-uid="4eb2569aa7"] .formkit-powered-by-convertkit-container[data-active="false"]{opacity:0.35;}.formkit-form[data-uid="4eb2569aa7"] .formkit-powered-by-convertkit{-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;background-color:#ffffff;border-radius:9px;color:#3d3d3d;cursor:pointer;display:block;height:36px;margin:0 auto;opacity:0.95;padding:0;-webkit-text-decoration:none;text-decoration:none;text-indent:100%;-webkit-transition:ease-in-out all 200ms;transition:ease-in-out all 200ms;white-space:nowrap;overflow:hidden;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:157px;background-repeat:no-repeat;background-position:center;background-image:url("data:image/svg+xml;charset=utf8,%3Csvg width='133' height='36' viewBox='0 0 133 36' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.861 25.5C0.735 25.5 0.651 25.416 0.651 25.29V10.548C0.651 10.422 0.735 10.338 0.861 10.338H6.279C9.072 10.338 10.668 11.451 10.668 13.824C10.668 15.819 9.219 16.932 8.001 17.226C7.707 17.268 7.707 17.625 8.022 17.688C9.912 18.108 11.088 19.116 11.088 21.321C11.088 23.715 9.429 25.5 6.426 25.5H0.861ZM5.397 23.085C6.825 23.085 7.518 22.224 7.518 21.006C7.518 19.683 6.825 18.948 5.397 18.948H4.2V23.085H5.397ZM5.313 16.617C6.51 16.617 7.245 15.945 7.245 14.601C7.245 13.383 6.51 12.753 5.25 12.753H4.2V16.617H5.313ZM17.9758 23.883C17.9758 23.568 17.6608 23.505 17.5348 23.799C17.0308 24.954 16.1698 25.731 14.5528 25.731C12.8728 25.731 12.0958 24.471 12.0958 22.707V14.937C12.0958 14.811 12.1798 14.727 12.3058 14.727H15.2248C15.3508 14.727 15.4348 14.811 15.4348 14.937V21.657C15.4348 22.581 15.7708 23.022 16.4638 23.022C17.1778 23.022 17.6188 22.581 17.6188 21.657V14.937C17.6188 14.811 17.7028 14.727 17.8288 14.727H20.7478C20.8738 14.727 20.9578 14.811 20.9578 14.937V25.29C20.9578 25.416 20.8738 25.5 20.7478 25.5H18.1858C18.0598 25.5 17.9758 25.416 17.9758 25.29V23.883ZM25.6141 25.29C25.6141 25.416 25.5301 25.5 25.4041 25.5H22.4851C22.3591 25.5 22.2751 25.416 22.2751 25.29V14.937C22.2751 14.811 22.3591 14.727 22.4851 14.727H25.4041C25.5301 14.727 25.6141 14.811 25.6141 14.937V25.29ZM23.9131 13.74C22.8001 13.74 22.0441 12.942 22.0441 11.934C22.0441 10.926 22.8001 10.107 23.9131 10.107C25.0051 10.107 25.7611 10.926 25.7611 11.934C25.7611 12.942 25.0051 13.74 23.9131 13.74ZM26.7883 10.548C26.7883 10.422 26.8723 10.338 26.9983 10.338H29.9173C30.0433 10.338 30.1273 10.422 30.1273 10.548V22.056C30.1273 22.749 30.2533 23.085 30.8203 23.085C31.0093 23.085 31.1983 23.043 31.3663 23.001C31.5133 22.959 31.6183 22.959 31.6183 23.127V25.059C31.6183 25.164 31.5763 25.269 31.4923 25.311C30.9673 25.521 30.2953 25.71 29.5813 25.71C27.7123 25.71 26.7883 24.639 26.7883 22.476V10.548ZM32.4237 14.727C32.8227 14.727 32.9277 14.538 32.9697 14.055L33.1167 12.039C33.1167 11.913 33.2217 11.829 33.3477 11.829H35.8887C36.0147 11.829 36.0987 11.913 36.0987 12.039V14.517C36.0987 14.643 36.1827 14.727 36.3087 14.727H38.2827C38.4087 14.727 38.4927 14.811 38.4927 14.937V16.659C38.4927 16.785 38.4087 16.869 38.2827 16.869H36.0777V22.056C36.0777 22.875 36.5397 23.085 37.0647 23.085C37.4847 23.085 37.9467 22.938 38.3247 22.707C38.4717 22.623 38.5767 22.665 38.5767 22.833V24.828C38.5767 24.933 38.5347 25.017 38.4507 25.08C37.8417 25.458 36.9807 25.71 36.0357 25.71C34.2927 25.71 32.7387 24.912 32.7387 22.476V16.869H31.8567C31.7307 16.869 31.6467 16.785 31.6467 16.659V14.937C31.6467 14.811 31.7307 14.727 31.8567 14.727H32.4237ZM51.3808 14.727C51.5068 14.727 51.5908 14.79 51.6118 14.916L52.3888 19.851L52.5778 21.174C52.6198 21.468 52.9558 21.468 52.9768 21.174C53.0398 20.712 53.0818 20.271 53.1658 19.83L53.8798 14.916C53.9008 14.79 53.9848 14.727 54.1108 14.727H56.6728C56.8198 14.727 56.8828 14.811 56.8618 14.958L54.6778 25.311C54.6568 25.437 54.5728 25.5 54.4468 25.5H51.3178C51.1918 25.5 51.1078 25.437 51.0868 25.311L50.1208 20.082L49.8898 18.633C49.8688 18.444 49.6588 18.444 49.6378 18.633L49.4068 20.103L48.5458 25.311C48.5248 25.437 48.4408 25.5 48.3148 25.5H45.2068C45.0808 25.5 44.9968 25.437 44.9758 25.311L42.8128 14.958C42.7918 14.811 42.8548 14.727 43.0018 14.727H45.9628C46.0888 14.727 46.1728 14.79 46.1938 14.916L46.9288 19.83C47.0128 20.271 47.0758 20.754 47.1388 21.195C47.2018 21.51 47.4748 21.531 47.5378 21.195L47.7478 19.872L48.6088 14.916C48.6298 14.79 48.7138 14.727 48.8398 14.727H51.3808ZM61.1582 25.29C61.1582 25.416 61.0742 25.5 60.9482 25.5H58.0292C57.9032 25.5 57.8192 25.416 57.8192 25.29V14.937C57.8192 14.811 57.9032 14.727 58.0292 14.727H60.9482C61.0742 14.727 61.1582 14.811 61.1582 14.937V25.29ZM59.4572 13.74C58.3442 13.74 57.5882 12.942 57.5882 11.934C57.5882 10.926 58.3442 10.107 59.4572 10.107C60.5492 10.107 61.3052 10.926 61.3052 11.934C61.3052 12.942 60.5492 13.74 59.4572 13.74ZM62.8154 14.727C63.2144 14.727 63.3194 14.538 63.3614 14.055L63.5084 12.039C63.5084 11.913 63.6134 11.829 63.7394 11.829H66.2804C66.4064 11.829 66.4904 11.913 66.4904 12.039V14.517C66.4904 14.643 66.5744 14.727 66.7004 14.727H68.6744C68.8004 14.727 68.8844 14.811 68.8844 14.937V16.659C68.8844 16.785 68.8004 16.869 68.6744 16.869H66.4694V22.056C66.4694 22.875 66.9314 23.085 67.4564 23.085C67.8764 23.085 68.3384 22.938 68.7164 22.707C68.8634 22.623 68.9684 22.665 68.9684 22.833V24.828C68.9684 24.933 68.9264 25.017 68.8424 25.08C68.2334 25.458 67.3724 25.71 66.4274 25.71C64.6844 25.71 63.1304 24.912 63.1304 22.476V16.869H62.2484C62.1224 16.869 62.0384 16.785 62.0384 16.659V14.937C62.0384 14.811 62.1224 14.727 62.2484 14.727H62.8154ZM73.4298 16.323C73.4298 16.638 73.7868 16.68 73.9128 16.407C74.3748 15.315 75.1308 14.496 76.6008 14.496C78.2178 14.496 78.9528 15.609 78.9528 17.373V25.29C78.9528 25.416 78.8688 25.5 78.7428 25.5H75.8238C75.6978 25.5 75.6138 25.416 75.6138 25.29V18.633C75.6138 17.709 75.2778 17.268 74.5848 17.268C73.8708 17.268 73.4298 17.709 73.4298 18.633V25.29C73.4298 25.416 73.3458 25.5 73.2198 25.5H70.3008C70.1748 25.5 70.0908 25.416 70.0908 25.29V10.548C70.0908 10.422 70.1748 10.338 70.3008 10.338H73.2198C73.3458 10.338 73.4298 10.422 73.4298 10.548V16.323Z' fill='%231E1E1E'/%3E%3Cpath d='M100.132 16.3203C105.58 17.3761 107.272 22.4211 107.318 27.4961C107.318 27.6101 107.226 27.7041 107.112 27.7041H100.252C100.138 27.7041 100.046 27.6121 100.046 27.5001C100.026 23.5629 99.3877 20.0896 95.4865 19.9396C95.3705 19.9356 95.2725 20.0276 95.2725 20.1456V27.5001C95.2725 27.6141 95.1806 27.7061 95.0666 27.7061H88.206C88.092 27.7061 88 27.6141 88 27.5001V8.75585C88 8.64187 88.092 8.54989 88.206 8.54989H95.0686C95.1826 8.54989 95.2745 8.64187 95.2745 8.75585V15.7764C95.2745 15.8804 95.3585 15.9644 95.4625 15.9644C95.5445 15.9644 95.6185 15.9104 95.6425 15.8324C97.4081 10.0416 100.709 8.58588 106.07 8.55189C106.184 8.55189 106.276 8.64387 106.276 8.75785V15.7604C106.276 15.8744 106.184 15.9664 106.07 15.9664H100.166C100.066 15.9664 99.9856 16.0464 99.9856 16.1464C99.9856 16.2304 100.048 16.3043 100.132 16.3203ZM118.918 20.7095V16.1704C118.918 16.0564 119.01 15.9644 119.124 15.9644H124.173C124.273 15.9644 124.353 15.8844 124.353 15.7844C124.353 15.6985 124.291 15.6245 124.207 15.6085C120.256 14.8246 118.432 12.5511 118.37 8.75585C118.368 8.64387 118.458 8.54989 118.572 8.54989H125.986C126.1 8.54989 126.192 8.64187 126.192 8.75585V11.9532C126.192 12.0672 126.284 12.1592 126.398 12.1592H130.649C130.763 12.1592 130.855 12.2511 130.855 12.3651V15.7624C130.855 15.8764 130.763 15.9684 130.649 15.9684H126.398C126.284 15.9684 126.192 16.0604 126.192 16.1744V19.8356C126.192 21.1294 126.986 21.5553 128.04 21.5553C129.692 21.5553 131.323 20.8114 131.977 20.4735C132.113 20.4035 132.277 20.5015 132.277 20.6555V26.3543C132.277 26.5063 132.193 26.6463 132.059 26.7183C131.413 27.0582 129.418 28 127.136 28C122.435 27.996 118.918 26.0824 118.918 20.7095ZM109.266 27.4981V16.1704C109.266 16.0564 109.358 15.9644 109.472 15.9644H116.334C116.448 15.9644 116.54 16.0564 116.54 16.1704V27.4981C116.54 27.6121 116.448 27.7041 116.334 27.7041H109.472C109.358 27.7021 109.266 27.6101 109.266 27.4981ZM108.876 11.4913C108.876 13.4189 110.238 14.9826 112.853 14.9826C115.469 14.9826 116.83 13.4189 116.83 11.4913C116.83 9.56369 115.471 8 112.853 8C110.238 8 108.876 9.56369 108.876 11.4913Z' fill='%231E1E1E'/%3E%3C/svg%3E");}.formkit-form[data-uid="4eb2569aa7"] .formkit-powered-by-convertkit:hover,.formkit-form[data-uid="4eb2569aa7"] .formkit-powered-by-convertkit:focus{background-color:#ffffff;-webkit-transform:scale(1.025) perspective(1px);-ms-transform:scale(1.025) perspective(1px);transform:scale(1.025) perspective(1px);opacity:1;}.formkit-form[data-uid="4eb2569aa7"] .formkit-powered-by-convertkit[data-variant="dark"],.formkit-form[data-uid="4eb2569aa7"] .formkit-powered-by-convertkit[data-variant="light"]{background-color:transparent;border-color:transparent;width:133px;}.formkit-form[data-uid="4eb2569aa7"] .formkit-powered-by-convertkit[data-variant="light"]{color:#ffffff;background-image:url("data:image/svg+xml;charset=utf8,%3Csvg width='133' height='36' viewBox='0 0 133 36' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.861 25.5C0.735 25.5 0.651 25.416 0.651 25.29V10.548C0.651 10.422 0.735 10.338 0.861 10.338H6.279C9.072 10.338 10.668 11.451 10.668 13.824C10.668 15.819 9.219 16.932 8.001 17.226C7.707 17.268 7.707 17.625 8.022 17.688C9.912 18.108 11.088 19.116 11.088 21.321C11.088 23.715 9.429 25.5 6.426 25.5H0.861ZM5.397 23.085C6.825 23.085 7.518 22.224 7.518 21.006C7.518 19.683 6.825 18.948 5.397 18.948H4.2V23.085H5.397ZM5.313 16.617C6.51 16.617 7.245 15.945 7.245 14.601C7.245 13.383 6.51 12.753 5.25 12.753H4.2V16.617H5.313ZM17.9758 23.883C17.9758 23.568 17.6608 23.505 17.5348 23.799C17.0308 24.954 16.1698 25.731 14.5528 25.731C12.8728 25.731 12.0958 24.471 12.0958 22.707V14.937C12.0958 14.811 12.1798 14.727 12.3058 14.727H15.2248C15.3508 14.727 15.4348 14.811 15.4348 14.937V21.657C15.4348 22.581 15.7708 23.022 16.4638 23.022C17.1778 23.022 17.6188 22.581 17.6188 21.657V14.937C17.6188 14.811 17.7028 14.727 17.8288 14.727H20.7478C20.8738 14.727 20.9578 14.811 20.9578 14.937V25.29C20.9578 25.416 20.8738 25.5 20.7478 25.5H18.1858C18.0598 25.5 17.9758 25.416 17.9758 25.29V23.883ZM25.6141 25.29C25.6141 25.416 25.5301 25.5 25.4041 25.5H22.4851C22.3591 25.5 22.2751 25.416 22.2751 25.29V14.937C22.2751 14.811 22.3591 14.727 22.4851 14.727H25.4041C25.5301 14.727 25.6141 14.811 25.6141 14.937V25.29ZM23.9131 13.74C22.8001 13.74 22.0441 12.942 22.0441 11.934C22.0441 10.926 22.8001 10.107 23.9131 10.107C25.0051 10.107 25.7611 10.926 25.7611 11.934C25.7611 12.942 25.0051 13.74 23.9131 13.74ZM26.7883 10.548C26.7883 10.422 26.8723 10.338 26.9983 10.338H29.9173C30.0433 10.338 30.1273 10.422 30.1273 10.548V22.056C30.1273 22.749 30.2533 23.085 30.8203 23.085C31.0093 23.085 31.1983 23.043 31.3663 23.001C31.5133 22.959 31.6183 22.959 31.6183 23.127V25.059C31.6183 25.164 31.5763 25.269 31.4923 25.311C30.9673 25.521 30.2953 25.71 29.5813 25.71C27.7123 25.71 26.7883 24.639 26.7883 22.476V10.548ZM32.4237 14.727C32.8227 14.727 32.9277 14.538 32.9697 14.055L33.1167 12.039C33.1167 11.913 33.2217 11.829 33.3477 11.829H35.8887C36.0147 11.829 36.0987 11.913 36.0987 12.039V14.517C36.0987 14.643 36.1827 14.727 36.3087 14.727H38.2827C38.4087 14.727 38.4927 14.811 38.4927 14.937V16.659C38.4927 16.785 38.4087 16.869 38.2827 16.869H36.0777V22.056C36.0777 22.875 36.5397 23.085 37.0647 23.085C37.4847 23.085 37.9467 22.938 38.3247 22.707C38.4717 22.623 38.5767 22.665 38.5767 22.833V24.828C38.5767 24.933 38.5347 25.017 38.4507 25.08C37.8417 25.458 36.9807 25.71 36.0357 25.71C34.2927 25.71 32.7387 24.912 32.7387 22.476V16.869H31.8567C31.7307 16.869 31.6467 16.785 31.6467 16.659V14.937C31.6467 14.811 31.7307 14.727 31.8567 14.727H32.4237ZM51.3808 14.727C51.5068 14.727 51.5908 14.79 51.6118 14.916L52.3888 19.851L52.5778 21.174C52.6198 21.468 52.9558 21.468 52.9768 21.174C53.0398 20.712 53.0818 20.271 53.1658 19.83L53.8798 14.916C53.9008 14.79 53.9848 14.727 54.1108 14.727H56.6728C56.8198 14.727 56.8828 14.811 56.8618 14.958L54.6778 25.311C54.6568 25.437 54.5728 25.5 54.4468 25.5H51.3178C51.1918 25.5 51.1078 25.437 51.0868 25.311L50.1208 20.082L49.8898 18.633C49.8688 18.444 49.6588 18.444 49.6378 18.633L49.4068 20.103L48.5458 25.311C48.5248 25.437 48.4408 25.5 48.3148 25.5H45.2068C45.0808 25.5 44.9968 25.437 44.9758 25.311L42.8128 14.958C42.7918 14.811 42.8548 14.727 43.0018 14.727H45.9628C46.0888 14.727 46.1728 14.79 46.1938 14.916L46.9288 19.83C47.0128 20.271 47.0758 20.754 47.1388 21.195C47.2018 21.51 47.4748 21.531 47.5378 21.195L47.7478 19.872L48.6088 14.916C48.6298 14.79 48.7138 14.727 48.8398 14.727H51.3808ZM61.1582 25.29C61.1582 25.416 61.0742 25.5 60.9482 25.5H58.0292C57.9032 25.5 57.8192 25.416 57.8192 25.29V14.937C57.8192 14.811 57.9032 14.727 58.0292 14.727H60.9482C61.0742 14.727 61.1582 14.811 61.1582 14.937V25.29ZM59.4572 13.74C58.3442 13.74 57.5882 12.942 57.5882 11.934C57.5882 10.926 58.3442 10.107 59.4572 10.107C60.5492 10.107 61.3052 10.926 61.3052 11.934C61.3052 12.942 60.5492 13.74 59.4572 13.74ZM62.8154 14.727C63.2144 14.727 63.3194 14.538 63.3614 14.055L63.5084 12.039C63.5084 11.913 63.6134 11.829 63.7394 11.829H66.2804C66.4064 11.829 66.4904 11.913 66.4904 12.039V14.517C66.4904 14.643 66.5744 14.727 66.7004 14.727H68.6744C68.8004 14.727 68.8844 14.811 68.8844 14.937V16.659C68.8844 16.785 68.8004 16.869 68.6744 16.869H66.4694V22.056C66.4694 22.875 66.9314 23.085 67.4564 23.085C67.8764 23.085 68.3384 22.938 68.7164 22.707C68.8634 22.623 68.9684 22.665 68.9684 22.833V24.828C68.9684 24.933 68.9264 25.017 68.8424 25.08C68.2334 25.458 67.3724 25.71 66.4274 25.71C64.6844 25.71 63.1304 24.912 63.1304 22.476V16.869H62.2484C62.1224 16.869 62.0384 16.785 62.0384 16.659V14.937C62.0384 14.811 62.1224 14.727 62.2484 14.727H62.8154ZM73.4298 16.323C73.4298 16.638 73.7868 16.68 73.9128 16.407C74.3748 15.315 75.1308 14.496 76.6008 14.496C78.2178 14.496 78.9528 15.609 78.9528 17.373V25.29C78.9528 25.416 78.8688 25.5 78.7428 25.5H75.8238C75.6978 25.5 75.6138 25.416 75.6138 25.29V18.633C75.6138 17.709 75.2778 17.268 74.5848 17.268C73.8708 17.268 73.4298 17.709 73.4298 18.633V25.29C73.4298 25.416 73.3458 25.5 73.2198 25.5H70.3008C70.1748 25.5 70.0908 25.416 70.0908 25.29V10.548C70.0908 10.422 70.1748 10.338 70.3008 10.338H73.2198C73.3458 10.338 73.4298 10.422 73.4298 10.548V16.323Z' fill='white'/%3E%3Cpath d='M100.132 16.3203C105.58 17.3761 107.272 22.4211 107.318 27.4961C107.318 27.6101 107.226 27.7041 107.112 27.7041H100.252C100.138 27.7041 100.046 27.6121 100.046 27.5001C100.026 23.5629 99.3877 20.0896 95.4865 19.9396C95.3705 19.9356 95.2725 20.0276 95.2725 20.1456V27.5001C95.2725 27.6141 95.1806 27.7061 95.0666 27.7061H88.206C88.092 27.7061 88 27.6141 88 27.5001V8.75585C88 8.64187 88.092 8.54989 88.206 8.54989H95.0686C95.1826 8.54989 95.2745 8.64187 95.2745 8.75585V15.7764C95.2745 15.8804 95.3585 15.9644 95.4625 15.9644C95.5445 15.9644 95.6185 15.9104 95.6425 15.8324C97.4081 10.0416 100.709 8.58588 106.07 8.55189C106.184 8.55189 106.276 8.64387 106.276 8.75785V15.7604C106.276 15.8744 106.184 15.9664 106.07 15.9664H100.166C100.066 15.9664 99.9856 16.0464 99.9856 16.1464C99.9856 16.2304 100.048 16.3043 100.132 16.3203ZM118.918 20.7095V16.1704C118.918 16.0564 119.01 15.9644 119.124 15.9644H124.173C124.273 15.9644 124.353 15.8844 124.353 15.7844C124.353 15.6985 124.291 15.6245 124.207 15.6085C120.256 14.8246 118.432 12.5511 118.37 8.75585C118.368 8.64387 118.458 8.54989 118.572 8.54989H125.986C126.1 8.54989 126.192 8.64187 126.192 8.75585V11.9532C126.192 12.0672 126.284 12.1592 126.398 12.1592H130.649C130.763 12.1592 130.855 12.2511 130.855 12.3651V15.7624C130.855 15.8764 130.763 15.9684 130.649 15.9684H126.398C126.284 15.9684 126.192 16.0604 126.192 16.1744V19.8356C126.192 21.1294 126.986 21.5553 128.04 21.5553C129.692 21.5553 131.323 20.8114 131.977 20.4735C132.113 20.4035 132.277 20.5015 132.277 20.6555V26.3543C132.277 26.5063 132.193 26.6463 132.059 26.7183C131.413 27.0582 129.418 28 127.136 28C122.435 27.996 118.918 26.0824 118.918 20.7095ZM109.266 27.4981V16.1704C109.266 16.0564 109.358 15.9644 109.472 15.9644H116.334C116.448 15.9644 116.54 16.0564 116.54 16.1704V27.4981C116.54 27.6121 116.448 27.7041 116.334 27.7041H109.472C109.358 27.7021 109.266 27.6101 109.266 27.4981ZM108.876 11.4913C108.876 13.4189 110.238 14.9826 112.853 14.9826C115.469 14.9826 116.83 13.4189 116.83 11.4913C116.83 9.56369 115.471 8 112.853 8C110.238 8 108.876 9.56369 108.876 11.4913Z' fill='white'/%3E%3C/svg%3E");}@-webkit-keyframes formkit-bouncedelay-formkit-form-data-uid-4eb2569aa7-{0%,80%,100%{-webkit-transform:scale(0);-ms-transform:scale(0);transform:scale(0);}40%{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);}}@keyframes formkit-bouncedelay-formkit-form-data-uid-4eb2569aa7-{0%,80%,100%{-webkit-transform:scale(0);-ms-transform:scale(0);transform:scale(0);}40%{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);}}.formkit-form[data-uid="4eb2569aa7"] blockquote{padding:10px 20px;margin:0 0 20px;border-left:5px solid #e1e1e1;}.formkit-form[data-uid="4eb2569aa7"] .seva-custom-content{padding:15px;font-size:16px;color:#fff;mix-blend-mode:difference;}.formkit-form[data-uid="4eb2569aa7"] .formkit-modal.guard{max-width:420px;width:100%;} .formkit-form[data-uid="4eb2569aa7"]{max-width:700px;}.formkit-form[data-uid="4eb2569aa7"] [data-style="clean"]{width:100%;}.formkit-form[data-uid="4eb2569aa7"] .formkit-fields{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;margin:0 auto;}.formkit-form[data-uid="4eb2569aa7"] .formkit-field,.formkit-form[data-uid="4eb2569aa7"] .formkit-submit{margin:0 0 15px 0;-webkit-flex:1 0 100%;-ms-flex:1 0 100%;flex:1 0 100%;}.formkit-form[data-uid="4eb2569aa7"] .formkit-powered-by-convertkit-container{margin:0;}.formkit-form[data-uid="4eb2569aa7"] .formkit-submit{position:static;}.formkit-form[data-uid="4eb2569aa7"][min-width~="700"] [data-style="clean"],.formkit-form[data-uid="4eb2569aa7"][min-width~="800"] [data-style="clean"]{padding:10px;padding-top:56px;}.formkit-form[data-uid="4eb2569aa7"][min-width~="700"] .formkit-fields[data-stacked="false"],.formkit-form[data-uid="4eb2569aa7"][min-width~="800"] .formkit-fields[data-stacked="false"]{margin-left:-5px;margin-right:-5px;}.formkit-form[data-uid="4eb2569aa7"][min-width~="700"] .formkit-fields[data-stacked="false"] .formkit-field,.formkit-form[data-uid="4eb2569aa7"][min-width~="800"] .formkit-fields[data-stacked="false"] .formkit-field,.formkit-form[data-uid="4eb2569aa7"][min-width~="700"] .formkit-fields[data-stacked="false"] .formkit-submit,.formkit-form[data-uid="4eb2569aa7"][min-width~="800"] .formkit-fields[data-stacked="false"] .formkit-submit{margin:0 5px 15px 5px;}.formkit-form[data-uid="4eb2569aa7"][min-width~="700"] .formkit-fields[data-stacked="false"] .formkit-field,.formkit-form[data-uid="4eb2569aa7"][min-width~="800"] .formkit-fields[data-stacked="false"] .formkit-field{-webkit-flex:100 1 auto;-ms-flex:100 1 auto;flex:100 1 auto;}.formkit-form[data-uid="4eb2569aa7"][min-width~="700"] .formkit-fields[data-stacked="false"] .formkit-submit,.formkit-form[data-uid="4eb2569aa7"][min-width~="800"] .formkit-fields[data-stacked="false"] .formkit-submit{-webkit-flex:1 1 auto;-ms-flex:1 1 auto;flex:1 1 auto;} </style></form>               
+                <!-- ****  End Form from kit.com with script *** --> 
+            </div>                       
+            <!-- ** End column 3 ** -->                                  
+        </div>
+        <!-- ******** End Footer container ******** -->
+        <!-- ** Start Footer separator decor ** -->
+        <div class="footer-separator-container">
+            <div class="footer-separator"></div> 
+        </div>
+        <!-- ** End Footer separator decor ** -->
+        <!-- ****** Start of Main address ******                     -->
+        <div class="footer-address">
+            <div class="footer-address-container">
+                <span class="footer-col1">
+                    +1(111) 123-4567
+                </span>
+                <span class="footer-col2">
+                    112 West 52nd Street, New York, NY 10019
+                </span>
+                <span class="footer-col3">
+                    Contact@LamertRestarant.com
+                </span>
+            </div>
+        </div>
+        <!-- ****** End of Main address ******                     -->
+        <!-- ********* Start of Footer Cap section ******* -->
+        <section>
+            <div class="footer-cap">
+                <span class="footer-copywrite"> © Lambert 2005</span>                
+                <span class="back-to-top">
+                    <a class="back-to-top" href="#hero">
+                        Back To Top
+                    </a>                                    
+                </span>                           
+            </div>                   
+        </section>
+        <!-- ********* End of Footer Cap section *******          -->
+    </footer>
+    <!-- *********************** End of Footer section **************     -->
+    <!-- **** Start JavaScript file **** -->
+    <script src="./js/script.js" ></script>
+    <!-- **** End JavaScript file **** -->    
+</body>
+</html>

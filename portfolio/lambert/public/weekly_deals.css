@@ -1,0 +1,194 @@
+.weekly-deals {    
+    width: 100%;
+    height: auto;
+    margin-bottom: 200px;    
+    background: url(/images/AI/production/chicken_cacciatore.jpg);    
+    background-position: center;
+    background-size: cover;     
+    color: var(--color-white);       
+    position: relative;
+}
+.deals-overlay {
+    background-color: var(--bg-overlay);          
+    width: 100%;
+    height: 100%;    
+ }
+.weekly-deals h4 {
+    font-size: var(--fs-md-heading);
+    letter-spacing: var(--ls-lg);
+    padding-top: 100px;
+    text-align: center;
+    margin: 0 auto;
+    font-family:var(--font-primary);
+}
+.weekly-deals .weekly-subtitle {
+    font-size: var(--fs-sm-heading);
+}
+.weekly-deals p {
+    font-size: 22px;
+    color: var(--color-primary);    
+    text-align: center;
+    font-family:var(--font-primary-cursive);
+}
+.weekly-deals span {
+    color: var(--color-white);
+}
+
+/* Start Weekly decor */
+.weekly-separator-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 20px;    
+}
+.weekly-deals-separator:before {
+    content: "";
+    position: absolute;
+    width: 100px; 
+    height: 1px;
+    background: var(--color-primary);
+    border: 0.25px solid var(--color-primary);
+    opacity: 0.3;
+    left: -160px;
+    top: 50%;      
+}
+.weekly-deals-separator {    
+    width: 6px;
+    height: 6px;
+    background: var(--color-white);
+    border-radius: 50%;
+    position: relative;                
+}
+.weekly-deals-separator:after {
+    content: "";
+    position: absolute;
+    width: 100px; 
+    height: 1px;
+    background: var(--color-primary);
+    border: 0.25px solid var(--color-primary);
+    opacity: 0.3;
+    right: -160px;
+    top: 50%;   
+}
+/* End Weekly decor */
+.deals-container {       
+    color: var(--color-white);
+    box-sizing: border-box;    
+    width: 100%;    
+    padding: 20px;
+}
+.deals {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+} 
+.deals .week-days {
+    color: var(--color-white);
+    font-size: 1.8em;
+    font-family:var(--font-primary);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 5px;  
+}
+.deals .menu-item {
+    display: flex;
+    align-items: center;
+    font-family:var(--font-secondary);
+    color: var(--color-white);
+    font-size: 1em;
+    margin: 5px 0;
+}
+.deals .menu-text {
+    margin-right: 5px;
+}
+/* Starts dots decor */
+.deals .dot {       
+    flex-grow: 1;
+    height: 1px;
+    width: 6px; 
+    border-bottom: 1px dotted var(--color-white);
+    margin: 0 10px;        
+}
+/* End dots decor */
+.deals .deals-price {    
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+.online-res a {
+    padding: 25px 0 75px 0;
+    font-family:var(--font-primary-cursive);
+    font-size: 18px;
+    font-weight: var(--fw-semibold);
+    letter-spacing: 1.5px; 
+    color: var(--color-primary);   
+}
+.online-res a:hover {
+    padding: 25px 0 75px 0;
+    font-family:var(--font-primary-cursive);
+    font-size: 18px;
+    font-weight: var(--fw-semibold);
+    letter-spacing: 1.5px;
+    color: var(--color-white);    
+}
+/* Start Deals spike decor */
+.deals-spiked {
+    height: 50px;    
+    position: relative;        
+}  
+  .deals-spiked:after {
+    position: absolute;
+    content: '';
+    right: 0;
+    left: 0;
+    top: 100%;
+    z-index: 1;
+    display: block;
+    height: 14px;
+    background-size: 14px 100%;
+    background-image: 
+    linear-gradient(135deg, rgb(32, 32, 32) 25%, transparent 25%), 
+    linear-gradient(225deg, rgb(32, 32, 32) 25%, transparent 25%);             
+  } 
+/* End Deals spike decor */
+
+  /* *********Media Queries for 'Weekly Deals' section  ************/
+
+@media screen and (min-width: 769px) and (max-width:1500px) {    
+    .weekly-deals {
+        padding: 0;
+        margin: 0;
+    }
+    .deals-overlay h4 {
+        font-size: var(--fs-3xl);
+    }    
+}
+@media screen and (max-width: 768px) {
+    .weekly-deals {
+        padding: 0;
+        margin: 0;
+    }
+    .deals-overlay h4 {
+        font-size: var(--fs-2xl);
+        letter-spacing: 2;
+    }
+    .weekly-subtitle {
+        font-size: 30px;
+        letter-spacing: 2;
+    }
+    .weekly-deals-separator:before {
+        display: none;
+    }
+    .weekly-deals-separator {
+        display: none;
+    }
+    .weekly-deals-separator:after {
+        display: none;
+    }
+    .deals .week-days {
+        font-size: 1em;
+    }
+}

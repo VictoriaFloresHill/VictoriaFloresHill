@@ -1,0 +1,124 @@
+.our-menu {
+    background: url(/images/AI/production/steak\ and\ roasted\ fingerling.jpg);
+    box-sizing: border-box;
+    width: 100%;    
+    height: auto; 
+    position: relative;
+    text-align: center;
+    background-position: center;
+    background-size:cover; 
+}
+.our-menu-overlay {
+    background-color: var(--bg-overlay);          
+    width: 100%;
+    height: 100%;
+    padding: 2% 0 0 0;    
+ }
+.our-menu h4 {
+    color: var(--color-white);    
+    font-size: var(--fs-md-heading);
+    font-family: var(--font-primary);
+    letter-spacing: 2.5px;     
+    padding: 2% 0 0 0;      
+}
+.our-menu p {
+    color: var(--color-primary);   
+    font-size: var(--fs-sm-heading);
+    font-family: var(--font-primary-cursive);
+    margin: 0;
+}
+.separator-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 20px;
+    height: 5vh;
+}
+/* Start Our Menu separator decor */
+.our-menu-separator:before {
+    content: "";
+    position: absolute;
+    width: 100px; 
+    height: 1px;
+    background: var(--color-primary);
+    border: 0.25px solid var(--color-primary);
+    opacity: 0.3;
+    left: -160px;
+    top: 50%;   
+}
+.our-menu-separator {   
+    width: 6px;
+    height: 6px;
+    background: var(--color-white);
+    border-radius: 50%;
+    position: relative;
+}
+.our-menu-separator:after {
+    content: "";
+    position: absolute;
+    width: 100px; 
+    height: 1px;
+    background: var(--color-primary);
+    border: 0.25px solid var(--color-primary);
+    opacity: 0.3;
+    right: -160px;
+    top: 50%;    
+}
+/* End Our Menu separator decor */
+/* Start Our Menu spike decor */
+.our-menu-spiked {
+    height: 50px;    
+    position: relative;        
+}
+.our-menu-spiked:after {
+    position: absolute;
+    content: '';
+    right: 0;
+    left: 0;
+    top: 100%;
+    z-index: 1;
+    display: block;
+    height: 14px;
+    background-size: 14px 100%;
+    background-image: 
+    linear-gradient(135deg, rgb(32, 32, 32) 25%, transparent 25%), 
+    linear-gradient(225deg, rgb(32, 32, 32) 25%, transparent 25%);             
+}
+/* End Our Menu spike decor */ 
+
+ /* *********Media Queries for 'Our Menu' section  ************/
+
+ @media screen and (min-width: 769px) and (max-width:1500px) {   
+    .our-menu h4 {
+        color: var(--color-white);   
+        font-size: var(--fs-2xl);
+        font-family: var(--font-primary);
+        letter-spacing: 2.5px;      
+        padding: 2% 0 0 0;      
+    }
+    .our-menu p {
+        color: var(--color-primary);   
+        font-size: 28px;
+        font-family: var(--font-primary-cursive);
+        margin: 0;
+        letter-spacing: 2px;
+    }
+ }
+ @media screen and (max-width: 768px)  {   
+    .our-menu h4 {
+        color: var(--color-white);   
+        font-size: var(--fs-2xl);
+        font-family: var(--font-primary);
+        letter-spacing: 1.5px;      
+        padding: 2% 0 0 0;      
+    }
+    .our-menu p {
+        color: var(--color-primary);   
+        font-size: var(--fs-xl);
+        font-family: var(--font-primary-cursive);
+        margin: 0;
+        letter-spacing: 1.5px;
+    }
+ }
+ 

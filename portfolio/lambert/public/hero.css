@@ -1,0 +1,278 @@
+.hero-container {    
+    background-image: url(../images/AI/production/garlic\ prawns_sm.png);
+    background-position: center;
+    background-size: cover; 
+    color: var(--color-white);      
+    width: 100%;
+    height: 86vh; 
+    margin: 0;       
+}
+.hero-overlay {
+   background-color: var(--bg-overlay);       
+   width: 100%;
+   height: 100%;    
+}
+/* Start Gold Decor */
+.hero-image-separator-gold {
+    text-align: center;
+    padding-top: 200px;
+}
+/* End Gold Decor */
+header {    
+    width: 100%;
+    display: flex;        
+    background-color: transparent;
+    color: var(--color-white);
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: all .3s ease-in-out;    
+    padding: 45px 0 0 0;
+    z-index: 9;        
+    justify-content: space-between;
+}
+/* 'scrolled' uses Javascript to change logos and background */
+header.scrolled {
+    background-color: var(--color-white);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+header.scrolled .logo-white {
+    display: none;
+}
+header.scrolled .logo-dark {
+    display: block;    
+}
+/* *********** Full Nav Menu ********* */
+.header.scrolled .nav-list a {
+    color: var(--color-dark);   
+}
+.header.scrolled .nav-list a:hover {     
+    color: var(--color-primary);
+}
+.header.scrolled .nav-list .active-link {
+    color: var(--color-primary);
+}
+.header.scrolled .nav-list .active-link::after {
+    content: "";   
+}
+ header .top-header {
+    width: auto;
+    padding-left: 3%;        
+}
+ header .top-nav {
+    width: auto;
+    margin: 0;    
+    margin-right: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    align-items: center;        
+}
+.logo-white {
+    display: block;    
+}
+.logo-dark {
+    display: none;
+    width: 150px;
+    height: 62px;
+}
+
+/* Responsive Nav */
+.hamburger {
+    display: none;
+    font-size: var(--fs-xl);    
+    cursor: pointer;
+    text-align: right;  
+    position: fixed;    
+    top: 50px;
+    right: 10px;
+    width: 40px;
+    height: 40px;    
+    color: var(--color-white);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;   
+    transition: all 0.3s ease;
+}
+.hamburger img {
+    padding-top: 10px;
+    width: 30px;
+    transition: all 0.3s ease;
+}
+/* Start chanage the Navigation with JavaScript */
+.header.scrolled .hamburger {
+    background-color: var(--color-white);
+}
+.header.scrolled .hamburger img {
+
+    /* This makes the white icon black */
+    filter: brightness(0); 
+}
+.scrolled {    
+    background-color:var(--color-white); 
+    color: var(--color-black-shade);    
+}
+/* End chanage the Navigation with JavaScript */
+.nav-list {
+    display: flex;
+    font-family: var(--font-secondary);
+    font-size: var(--fs-sm);
+    list-style: none;       
+    }
+ .nav-list li a {        
+    flex-direction: row;
+    padding-bottom: 15px;    
+    margin-left: 1.5em;    
+    color: var(--color-white);       
+    text-decoration: none;
+    transition: color 0.3s ease;       
+}
+.nav-list.active {
+  color: var(--color-primary);     
+}
+.nav-list li a:hover {       
+    color: var(--color-primary-dark);
+    cursor: pointer;
+    transition: color 0.3s ease; 
+}
+h1 {    
+    text-align: center;
+    font-family: var(--font-primary-cursive);
+    font-weight: 500;
+    font-size: var(--fs-4xl);
+    letter-spacing: 6.5px;    
+    font-size: 4rem; 
+    margin: 15px auto;           
+}
+/* Start double lines decor */
+.welcome-h2::before {
+    content: " ";    
+    width: 5%;
+    font-weight: 100;
+    margin-left: 20px;
+    border: 0.25px solid var(--color-primary);
+    opacity: 0.3;
+    display: inline-block;
+    margin-right: 15px;    
+}
+h2 {           
+    text-align: center;
+    font-family: var(--font-primary);
+    font-size: var(--fs-sm);
+    font-weight: 100;    
+    letter-spacing: 1.5px;
+    padding-bottom: -4em;
+    margin-bottom: 20px;             
+}
+.welcome-h2::after {
+    content: " ";    
+    width: 5%;
+    font-weight: 100;
+    margin-left: 20px;
+    border: 0.25px solid var(--color-primary);
+    opacity: 0.3;
+    display: inline-block;    
+}
+/* End double lines decor */
+/* Start Hero half circle with star decor */
+.hero-circle-decor-container {
+    width: 100%;
+    height: auto;
+    position: relative;        
+}
+.fa-star {    
+    color: var(--color-white); 
+    text-align: center;    
+    margin-top: 10px;
+    z-index: 5;
+    cursor: default;    
+}
+.half-circle-gold {
+    content: " ";
+    border: 3px solid var(--color-primary);
+    width: 100px;
+    height: 50px;    
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    border-top: 0 !important;
+    border-top-width: 0px;
+    border-top-style: none;
+    border-top-color: currentcolor;   
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;   
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);       
+    position: absolute;
+    z-index: 6;    
+}
+/* End Hero half circle with star decor */
+/* ************ Media Queries for Hero Section *********** */
+
+@media screen and (min-width: 769px) and (max-width:1500px) {
+    .top-header {
+        width: 20%;
+        padding-left: 2%;
+        padding-bottom: 4%;        
+    }
+    .nav-list {
+        display: flex;
+        font-family: var(--font-secondary);
+        font-size: 13px;
+        list-style: none; 
+        padding-left: 1%;             
+    }
+    h1 {
+        font-size: 3.5rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    /* *********** Full Nav Menu to Hamburger Menu ********* */
+    .header.scrolled .nav-list a {
+        color: var(--color-white);
+    }
+    .header.scrolled .nav-list a:hover {     
+        color: var(--color-primary);
+    } 
+    .top-header {
+        width: 20%;
+        padding-left: 2%;        
+        padding-bottom: 4%;
+    }        
+    .hamburger {
+        display: block;        
+    }
+    .hamburger img {
+        padding-top: 10px;
+        width: 30px;
+    }
+    .nav-list {
+        display: none;
+        flex-direction: column;        
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        width: 150px;
+        padding: 10px;
+        border-radius: 5px;
+        background-color:#222;               
+    }
+    .nav-list li a {
+        color: var(--color-white);
+        margin-left: 0;
+        padding: 5px 10px;
+    }
+    .nav-list li a:hover {
+        color: var(--color-primary);
+    }    
+    .nav-list.active {
+        display: flex;        
+    }
+    .nav-list li {
+        padding: 10px 0;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+}

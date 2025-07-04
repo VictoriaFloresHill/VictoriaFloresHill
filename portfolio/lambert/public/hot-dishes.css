@@ -1,0 +1,234 @@
+.hot-dishes {
+    display: inline-table;
+    width: 100%;
+    background-color: var(--color-white);
+    color: var(--color-black);    
+}
+.hot-dishes h4 {
+    color: var(--color-primary);
+    text-align: center;
+    font-size: var(--fs-lg-heading);    
+    font-family:var(--font-primary-cursive);
+    font-weight: 100;
+    margin: 85px 0 0 0;
+}
+/* start double line gold decor */
+.hot-dishes p:before {
+    content: url(../images/bef-af.png);
+    margin-right: 15px;
+}
+.hot-dishes p {
+    font-weight: var(--fw-semibold);
+    text-align: center;
+    font-family:var(--font-primary);
+    font-size: var(--fs-lg);      
+}
+.hot-dishes p:after {
+    content: url(../images/bef-af.png);
+    margin-left: 15px;
+}
+/* End double line gold decor */
+/* start gold separator decor */
+.hot-dishes .image-separator-gold {
+    margin: 0 0 85px 0;
+}
+/* End gold separator decor */
+.dishes-col1 {
+    float: left;    
+    width: 48%;
+    font-weight: var(--fw-semibold);    
+    font-family:serif;   
+    font-size: var(--fs-xl);
+    line-height: 120%;
+    padding-left: 20px;      
+}
+.dishes-col1 li {
+    list-style-type:none;      
+}
+.dishes-choice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;      
+}
+.dishes-choice .dishes-choice-title {
+    font-weight: var(--fw-semibold);    
+    color: var(--color-black);    
+    font-size: var(--fs-xl);
+    font-weight: 600;    
+    font-style: italic;    
+}
+.dishes-choice .dishes-price {
+    font-size: var(--fs-xl);
+    font-weight: var(--fw-semibold);    
+    padding: 5px 10px;
+    border-radius: 5px;    
+    white-space: nowrap;
+}
+/* Start Dishes dot decor */
+.dishes-dot {
+    flex-grow: 1;
+    border-bottom: 1px dotted var(--color-black-shade);
+    margin: 0 10px;
+}
+/* End Dishes dot decor */
+
+/************** This one!! ****************/
+.dishes-col1 div {
+    font-weight: 100;
+    font-size: var(--fs-base);
+    font-style: normal;    
+    color: var(--color-gray-medium);      
+}
+.dishes-col2 {
+    float: left;    
+    width: 48%;
+    font-weight: var(--fw-semibold);
+    font-style: italic;
+    font-size: var(--fs-xl);
+    line-height: 120%; 
+    padding-left: 20px;           
+}
+.dishes-col2 li {
+    list-style-type:none;    
+}
+.dishes-col2 div {
+    font-weight: 100;
+    font-size: var(--fs-base);
+    font-style: normal;    
+    color: var(--color-gray-medium);    
+}
+.item-dish {
+    margin-bottom: 50px;
+    font-family: var(--font-primary);              
+}
+/* Start Chef Selection decor box */
+.chef-selection-container::before {
+    border: 2 solid var(--color-primary);
+    content: "";    
+    top: 0;
+    left:0;
+    width: 100%;
+    height:100%;
+    padding-top: 25px;
+}
+.chef-selection-container {        
+    border: 2px var(--color-primary) solid; 
+    margin-top: -30px;
+    margin-left: -30px;
+    padding-left: 30px;             
+}
+/* ***Chef Selection box *** */
+.chef-selection-container .dishes-chef-select {    
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    display: block;
+    width: 25%;
+    max-width: 25%;    
+    font-size: var(--fs-md);
+    font-weight: 100;
+    margin-left: -30px;    
+    font-family:var(--font-secondary);
+    letter-spacing: 1.2; 
+    text-align: center;    
+    padding: 0 5px 0 5px;      
+}
+/* End Chef Selection decor box */
+.item-title {    
+    color: var(--color-black);
+    font-weight: var(--fw-semibold);
+    font-style: italic;
+    font-size: var(--fs-xl);
+    line-height: 120%; 
+    font-family:var(--font-secondary);   
+}
+li .item-title {    
+    color: var(--color-black);
+    font-weight: var(--fw-semibold);
+    font-style: italic;
+    font-size: var(--fs-xl);
+    line-height: 120%; 
+    font-family:var(--font-secondary);               
+}
+.dishes-choice-title {
+    color: var(--color-black);
+    font-weight: var(--fw-semibold);    
+    font-size: var(--fs-xl);
+    line-height: 120%;     
+}
+/* Start Dish description */
+.item-subtitle {
+    font-weight: 100;
+    font-size: var(--fs-base);    
+    font-family:var(--font-primary);
+    color: var(--color-gray-medium);    
+    margin-bottom: 50px;    
+}
+/* End Dish description */
+@media screen and (min-width: 769px) and (max-width:1500px) {
+    .hot-dishes h4 {
+        color: var(--color-primary);
+        text-align: center;        
+        font-family:var(--font-primary-cursive);
+        font-weight: 100;
+        margin: 85px 0 0 0;
+    }
+    .hot-dishes p {
+        font-weight: var(--fw-semibold);
+        text-align: center;
+        font-family:var(--font-primary);
+        font-size: var(--fs-md);      
+    }
+    .dishes-choice .dishes-choice-title {        
+        font-size: var(--fs-xl) !important;
+        font-weight: var(--fw-semibold);
+        font-style: italic;
+    }
+    .dishes-choice .dishes-price {
+        font-size: var(--fs-lg);
+        font-weight: var(--fw-semibold);
+        font-style: italic;
+        font-size: var(--fs-xl) !important;
+        padding: 5px 10px;
+        border-radius: 5px;
+        white-space: nowrap;        
+    }
+}
+@media screen and (max-width: 768px)  {   
+    .hot-dishes h4 {
+        color: var(--color-primary);
+        text-align: center;
+        font-size: var(--fs-md-heading);
+        font-family:var(--font-primary-cursive);
+        font-weight: 100;
+        margin: 85px 0 0 0;
+    }
+    .hot-dishes p {
+        font-weight: var(--fw-semibold);
+        text-align: center;
+        font-family:var(--font-primary);
+        font-size: var(--fs-base);      
+    }
+    .dishes-col1 {
+        width: 100%;
+        font-size: var(--fs-xl)
+    }
+    .dishes-col2 {
+        width: 100%;
+        font-size: var(--fs-xl)
+    }
+    .dishes-choice .dishes-choice-title {        
+        font-weight: var(--fw-semibold);
+        font-style: italic;
+        font-size: var(--fs-xl) !important;        
+    }
+    .dishes-choice .dishes-price {        
+        font-weight: var(--fw-semibold);
+        font-style: italic;
+        padding: 5px 10px;
+        border-radius: 5px;
+        white-space: nowrap;
+        font-size: var(--fs-xl) !important;
+    }
+ }
+ 

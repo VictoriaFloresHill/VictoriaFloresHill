@@ -1,0 +1,151 @@
+.our_restaurant {
+    background-color: var(--color-white);    
+    padding: 65px 45px 0 45px;   
+    display: inline-table;
+    width: 100%;
+    height: 80vh;    
+}
+.our_restaurant p {   
+    width: 40%;
+    box-sizing: border-box;
+    float: left;
+    line-height: var(--lh-relaxed); 
+    background-color: var(--color-white);    
+    color:var(--color-gray);
+    font-size: var(--fs-base);
+    font-family: var(--font-primary);   
+}
+.our_restaurant p img {
+    width: 100%;
+    height: auto;    
+    padding-top: 90px;
+}
+.restaurant_col2 {
+    width: 50%;
+    float: right;
+}
+.our_restaurant h2 {
+    background-color: var(--color-white);
+    color: var(--color-primary);
+    font-size: var(--fs-lg-heading);
+    font-family: var(--font-primary-cursive);
+    font-weight: 300;
+    padding-bottom: 30px;           
+}
+/* Start Double line decor */
+.our_restaurant h3:before {
+    content: url(../images/bef-af.png);
+    margin-right: 15px;
+}
+.our_restaurant h3 {
+    background-color: var(--color-white);
+    color: var(--color-black);
+    text-transform: uppercase; 
+    font-size: var(--fs-lg); 
+    font-family: var(--font-primary);    
+    text-align: center;    
+    margin-top: -50px;    
+}
+.our_restaurant h3:after {
+    content: url(../images/bef-af.png);
+    margin-left: 15px;
+}
+/* End Double line decor */
+.restaurant_col2 {
+    width: 50%;
+}
+.restaurant_col2 .restaurant-span {
+    width: 100%;    
+}
+.our_story {
+    background-color: var(--color-white);
+    color: var(--color-primary);
+    font-size: 18px;
+    font-weight: var(--fw-semibold);
+    font-family: var(--font-primary-cursive); 
+    float: left;    
+    letter-spacing: var(--ls-wider);    
+    padding: 25px 20px 0 20px;
+}
+.our_story:hover {
+    background-color: var(--color-white);
+    color: var(--color-black);
+    font-size: 18px;
+    font-weight: var(--fw-semibold);
+    font-family: var(--font-primary-cursive); 
+    float: left;
+    letter-spacing: var(--ls-wider); 
+    padding: 25px 20px 0 20px;            
+}
+.restaurant-span {
+    margin-left: 0;    
+}
+
+/* *********Media Queries for 'Our Restaurant' section  ************/
+
+@media screen and (min-width: 900px) and (max-width:1500px) {    
+    .restaurant_col2 h2 {
+        font-size: var(--fs-md-heading);        
+    }
+    .restaurant_col2 h3 {
+        font-size: var(--fs-lg);
+    }
+    .restaurant-span {
+        font-size: 14px;
+    }   
+}
+  @media screen and (min-width: 768px) and (max-width: 899px) {    
+    .restaurant_col2 h2 {
+        font-size: 42px;        
+    }
+    .our_restaurant h3:before {
+        display: none;
+    }
+    .restaurant_col2 h3 {
+        font-size: var(--fs-base);
+    }
+    .our_restaurant h3:after {
+        display: none;
+    }
+    .restaurant-span {
+        font-size: var(--fs-xs);
+    }
+  }
+  @media screen and (max-width: 767px) { 
+    .our_restaurant {
+        padding: 0;
+        margin: 0;
+    }
+    .image-separator-gold img {
+        display: none;
+    }    
+    .restaurant_col1 {        
+        width: 100%;        
+    }
+     .restaurant_col1 p img {                        
+        width: clamp(350px, 100vw, 760px);                 
+        padding-top: 90px;
+     }    
+    .restaurant_col2 {
+        flex-direction: row;
+        width: 100%;
+        text-align: center;        
+    }
+    .restaurant_col2 h2 {
+        font-size: 42px;        
+    }
+    .restaurant_col2 h3 {
+        font-size: var(--fs-base);
+    }
+    .restaurant-span {
+        font-size: 11px;
+        padding: 0 7%;
+        text-align: left;
+    }
+    .our_story {
+        padding: 5% 5% 10% 10%;
+    }
+    .our_story:hover {
+        padding: 5% 5% 10% 10%;
+    }          
+  }

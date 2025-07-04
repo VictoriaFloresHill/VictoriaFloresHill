@@ -1,0 +1,215 @@
+.our-team {
+    background-color: var(--color-white);
+    box-sizing: border-box;    
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 0 80px 0;                
+}
+.our-team h4 {
+    color: var(--color-primary);
+    background-color:var(--color-white);
+    text-align: center;
+    font-size: var(--fs-lg-heading);
+    font-family:var(--font-primary-cursive);
+    font-weight: 100;
+}
+/* start double line decor */
+.our-team .team-subtitle:before {
+    content: url(../images/bef-af.png);
+    margin-right: 15px;
+}
+.our-team .team-subtitle {
+    color: var(--color-black);
+    background-color: var(--color-white);
+    text-align: center;
+    font-size: var(--fs-lg);
+    font-weight: var(--fw-semibold);
+    margin-top: -70px;    
+}
+.our-team .team-subtitle:after {
+    content: url(../images/bef-af.png);
+    margin-left: 15px;
+}
+/* End double line decor */
+.team-description {
+    color: var(--color-gray);   
+    font-size: var(--fs-base);    
+    font-weight: 100;
+    font-family:var(--font-primary); 
+    width: 100%;
+    padding: 0 15% 0 15%;    
+    line-height: var(--lh-relaxed); 
+    text-align: center;       
+}
+.team-separator-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 10vh;
+}
+/* Start Our Team separator */
+.our-team-separator:before {
+    content: " ";   
+    width: 7%;
+    height: 1px;
+    background: var(--color-primary);
+    border: 0.25px solid var(--color-primary);
+    font-weight: 100;
+    left: 35%;       
+    opacity: 0.3; 
+    position: absolute;     
+}
+.our-team-separator {    
+    text-align: center;
+    font-size: 50px;
+    width: 6px;
+    height: 6px;
+    background: var(--color-black-shade);
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.our-team-separator:after {   
+    content: " ";   
+    width: 7%;
+    height: 1px;
+    background: var(--color-primary);
+    border: 0.25 solid var(--color-primary);
+    font-weight: 100;
+    opacity: 0.3;
+    right: 35%;    
+    position: absolute;    
+}
+/* End Our Team separator */
+.our-team-bio {
+    display: flex;
+    margin: 0 25% 0 25%;
+    padding-top: 80px;      
+}
+.our-team-bio img {         
+    border-radius: 50%;
+    width: 180px;     
+    padding-right: 25px;  
+}
+.our-team-container {
+    display: flex;
+    justify-content: center;   
+    gap: 40px;
+    padding: 50px 0 50px 0;   
+}
+.team-info {
+    color: var(--color-black);        
+}
+.col {    
+    text-align: center;
+}
+.our-team-container  .col img {
+    border-radius: 50%;
+    width: 150px;
+}
+.our-team-container  .col img:hover {
+    transform: scale(0.9);
+    opacity: 0.3;
+    cursor: pointer;    
+}
+.bio {
+    color: var(--color-black);
+    font-weight: var(--fw-bold);    
+    justify-content: center;    
+    display: flex;
+    font-family:var(--font-primary-cursive);     
+}
+.bio-subtitle  {    
+    color: var(--color-primary) !important;
+    font-weight: var(--fw-bold); 
+    font-family:var(--font-primary);        
+}
+
+/* *********Media Queries for 'Our Team' section  ************/
+
+@media screen and (min-width: 796px) and (max-width:1500px) {    
+    .our-team {
+        padding: 0;
+        margin: 0;
+    }
+    .our-team h4 {
+        font-size: var(--fs-md-heading);
+        padding-bottom: 7px;
+    }
+    .our-team .team-subtitle {
+        font-size: var(--fs-md);
+    }
+    .team-description {           
+        font-size: var(--fs-base);    
+        font-weight: 100;
+        font-family:var(--font-primary); 
+        width: 100%;
+        padding: 0 15% 0 15%;    
+        line-height: var(--lh-normal);
+        text-align: center;
+    }
+}
+@media screen and (min-width: 769px) and (max-width:795px) {
+    .our-team {
+        width: 100%;
+        min-height: 100vh;
+        padding: 80px 0;        
+    }
+    .our-team h4 {
+        font-size: var(--fs-md-heading);
+        padding-bottom: 7px;
+    }
+    .our-team .team-subtitle {
+        font-size: var(--fs-md);
+    }
+    .team-description {           
+        font-size: var(--fs-base);    
+        font-weight: 100;
+        font-family:var(--font-primary); 
+        width: 100%;
+        padding: 0 15% 0 15%;    
+        line-height: var(--lh-normal);
+        text-align: center;
+    }
+}
+@media screen and (max-width: 768px) {
+    .our-team {
+        box-sizing: border-box; 
+        width: 100%;
+        min-height: 100vh;
+        padding: 0;        
+    }
+    .our-team h4 {
+        font-size: var(--fs-md-heading);
+        padding-bottom: 7px;        
+    }
+    .our-team .team-subtitle:before {
+        display: none;
+    }
+    .our-team .team-subtitle {
+        font-size: var(--fs-base);
+        color: var(--color-black);
+        background-color: var(--color-white);
+        text-align: center;
+        font-size: var(--fs-base);
+        font-weight: var(--fw-semibold);
+        margin-top: -70px;
+    }
+    .our-team .team-subtitle:after {
+        display: none;
+    }
+    .team-description {
+        font-size: var(--fs-base);    
+        font-weight: 100;
+        font-family:var(--font-primary); 
+        width: 100%;
+        padding: 0 15% 0 15%;    
+        line-height: var(--lh-relaxed); 
+        text-align: center;
+    }
+}
