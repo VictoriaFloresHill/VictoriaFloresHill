@@ -38,7 +38,143 @@
   
   <br>
   <hr> 
-  
+  <!-- PROJECTS -->
+
+<h2 align="center">Projects</h2>
+<div align="center">
+	<table>
+		<tr>
+			<td width="50%">
+				<h3 align="center">Onehundred</h3>
+				<div align="center">  
+					<a href='https://victoriafloreshill.com/portfolio/onehundred/index.html' target="_blank">
+						<img src="https://github.com/VictoriaFloresHill/victoriaFloresHill_private/blob/main/portfolio/onehundred/Screenshot_hero_crop_square.x424png.png" alt="Onehundred" height="100%" />
+					</a>
+					<br>
+					<br>
+					<p>
+						<a href="https://github.com/VictoriaFloresHill/victoriaFloresHill_private/tree/main/portfolio/onehundred" target="_blank">
+							<img src="https://img.shields.io/badge/Repo-lightgrey?style=for-the-badge&logo=github"/>
+						</a>  
+						<a href="https://victoriafloreshill.com/portfolio/onehundred/index.html" target="_blank">
+              <img src="https://img.shields.io/badge/Live-lightgrey?style=for-the-badge&color=0892d0"/>
+						</a>
+					</p>
+					<p><strong>HTML, CSS, Javascript</strong></p>
+          <p>
+						Onehundred - Website Returning Form Data
+					</p>
+				</div>
+			</td>
+			<td width="50%">
+				<h3 align="center">Lambert</h3>
+				<div align="center" >  
+					<a href='https://victoriafloreshill.com/portfolio/lambert/index.html' target="_blank">
+						<img src="https://github.com/VictoriaFloresHill/VictoriaFloresHill/blob/main/portfolio/lambert/Lambert_screenshot_x424_tiny.png" alt="Lambert Resturant" height="100%" />
+					</a>
+					<br>
+					<br>
+					<p>
+						<a href="https://github.com/VictoriaFloresHill/VictoriaFloresHill/tree/main/portfolio/lambert" target="_blank">
+							<img src="https://img.shields.io/badge/Repo-lightgrey?style=for-the-badge&logo=github"/>
+						</a>  
+						<a href="https://victoriafloreshill.com/portfolio/lambert/index.html" target="_blank">
+              <img src="https://img.shields.io/badge/Live-lightgrey?style=for-the-badge&color=0892d0"/>
+						</a>	
+					</p>
+					 <p><strong>HTML, CSS, Javascript</strong></p>
+					<p>Lambert Resturant Website</p>
+				</div>
+        </tr>
+	    <tr>
+            <td width="50%">
+                <h3 align="center">Project 3</h3>
+                <div align="center" >  
+                    <a href='https://victoriafloreshill.com/portfolio/lonelyplanet/index.html' target="_blank">
+						<img src="https://github.com/VictoriaFloresHill/VictoriaFloresHill/blob/main/portfolio/lonelyplanet/LonelyPlanet_screenshot_x424__tiny.png" alt="Lonely Planet" height="100%" />
+					</a>
+					<br>
+					<br>
+					<p>
+						<a href="https://github.com/VictoriaFloresHill/VictoriaFloresHill/tree/main/portfolio/lonelyplanet/" target="_blank">
+							<img src="https://img.shields.io/badge/Repo-lightgrey?style=for-the-badge&logo=github"/>
+						</a>  
+						<a href="https://victoriafloreshill.com/portfolio/lonelyplanet/index.html" target="_blank">
+              <img src="https://img.shields.io/badge/Live-lightgrey?style=for-the-badge&color=0892d0"/>
+						</a>
+                    </p>
+                    <p><strong>HTML and CSS</strong></p>
+		    <p>Lonely Planet - Newletter Email</p>
+                </div>
+            </td>
+            <td width="50%">
+                <h3 align="center">Project 4</h3>
+                <div align="center">  
+                    <a href='https://victoriafloreshill.com/portfolio/microcenter/index.html' target="_blank">
+						<img src="https://github.com/VictoriaFloresHill/VictoriaFloresHill/blob/main/portfolio/microcenter/MicroCenter_sreenshot_x424_tiny.png" alt="Microcenter" height="100%" />
+					</a>
+					<br>
+					<br>
+					<p>
+						<a href="https://github.com/VictoriaFloresHill/VictoriaFloresHill/tree/main/portfolio/microcenter" target="_blank">
+							<img src="https://img.shields.io/badge/Repo-lightgrey?style=for-the-badge&logo=github"/>
+						</a>  
+						<a href="https://victoriafloreshill.com/portfolio/microcenter/index.html" target="_blank">
+              <img src="https://img.shields.io/badge/Live-lightgrey?style=for-the-badge&color=0892d0"/>
+						</a>
+                    </p>
+                    <p><strong>HTML and CSS</strong></p>
+		    <p>Microcenter - Transactional Email</p>
+                </div>	
+            </td>
+        </tr>
+		<tr>
+            <td width="50%">
+                <h3 align="center">Microsoft Surface</h3>
+                <div align="center" >  
+                    <a href='https://victoriafloreshill.com/portfolio/mssurface/index.html' target="_blank">
+						<img src="https://github.com/VictoriaFloresHill/VictoriaFloresHill/blob/main/portfolio/mssurface/MSSurface_screenshot_x424_tiny.png" alt="Microsoft Surface" height="100%" />
+					</a>
+					<br>
+					<br>
+					<p>
+						<a href="https://github.com/VictoriaFloresHill/VictoriaFloresHill/tree/main/portfolio/mssurface" target="_blank">
+							<img src="https://img.shields.io/badge/Repo-lightgrey?style=for-the-badge&logo=github"/>
+						</a>  
+						<a href="https://victoriafloreshill.com/portfolio/mssurface/index.html" target="_blank">
+              <img src="https://img.shields.io/badge/Live-lightgrey?style=for-the-badge&color=0892d0"/>
+						</a>
+                    </p>
+                    <p><strong>HTML and CSS</strong></p>
+		    <p>Microsoft Surface - Promotional Email</p>
+                </div>
+            </td>
+            <!-- <td width="50%">
+                <h3 align="center">Project 6</h3>
+                <div align="center">  
+                    <a href='https://victoriafloreshill.com/portfolio/onehundred/index.html' target="_blank">
+						<img src="https://github.com/VictoriaFloresHill/victoriaFloresHill_private/blob/main/portfolio/onehundred/Screenshot_hero_crop_square.x424png.png" alt="Onehundred" height="100%" />
+					</a>
+					<br>
+					<br>
+					<p>
+						<a href="portfolio/onehundred" target="_blank">
+							<img src="https://img.shields.io/badge/Repo-lightgrey?style=for-the-badge&logo=github"/>
+						</a>  
+						<a href="https://victoriafloreshill.com/portfolio/onehundred/index.html" target="_blank">
+              <img src="https://img.shields.io/badge/Live-lightgrey?style=for-the-badge&color=0892d0"/>
+						</a>
+                    </p>
+                    <p><strong>HTML, CSS, Javascript</strong></p>
+		    <p>Description goes here</p>
+                </div>	
+            </td>
+        </tr> -->
+	</table>
+</div>
+<br />
+<br />
+<hr>
   
   <!-- SOCIALS -->
   
