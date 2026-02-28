@@ -97,7 +97,7 @@
         </tr>
 	    <tr>
             <td width="50%">
-                <h3 align="center">Project 3</h3>
+                <h3 align="center">Lonely Planet</h3>
                 <div align="center" >  
                     <a href='https://victoriafloreshill.com/portfolio/lonelyplanet/index.html' target="_blank">
 						<img src="https://github.com/VictoriaFloresHill/VictoriaFloresHill/blob/main/portfolio/lonelyplanet/LonelyPlanet_screenshot_x424__tiny.png" alt="Lonely Planet" height="100%" />
@@ -117,7 +117,7 @@
                 </div>
             </td>
             <td width="50%">
-                <h3 align="center">Project 4</h3>
+                <h3 align="center">Microcenter</h3>
                 <div align="center">  
                     <a href='https://victoriafloreshill.com/portfolio/microcenter/index.html' target="_blank">
 						<img src="https://github.com/VictoriaFloresHill/VictoriaFloresHill/blob/main/portfolio/microcenter/MicroCenter_sreenshot_x424_tiny.png" alt="Microcenter" height="100%" />
