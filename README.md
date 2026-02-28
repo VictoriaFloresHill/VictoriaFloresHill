@@ -21,6 +21,15 @@
                         <a href="#">
                           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" title="CSS" width="75" height="75"/>
                          </a>
+						  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="blank"  style="text-decoration="none">
+                          <img src="https://github.com/VictoriaFloresHill/victoriaFloresHill_private/blob/main/assets/javascript-original.svg" alt="JavaScript" title="JavaScript" width="75" height="75"/>
+                         </a>
+						  <a href="https://www.shopify.com/" target="blank">
+                          <img src="https://github.com/VictoriaFloresHill/victoriaFloresHill_private/blob/main/assets/shopify.svg" alt="Shopify" title="Shopify" width="75" height="75"/>
+                         </a>
+						  <a href="https://wordpress.org/" target="blank">
+                          <img src="https://github.com/VictoriaFloresHill/victoriaFloresHill_private/blob/main/assets/wordpress-logo.svg" alt="Wordpress" title="Wordpress" width="75" height="75"/>
+                         </a>
                         <a href="https://www.figma.com/" target="blank">
                           <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" title="figma" width="75" height="75"/>
                          </a>
