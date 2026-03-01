@@ -62,9 +62,9 @@
 					<br>
 					<br>
 					<p>
-						<a href="https://github.com/VictoriaFloresHill/victoriaFloresHill_private/tree/main/portfolio/onehundred" target="_blank">
+						<!-- <a href="https://github.com/VictoriaFloresHill/victoriaFloresHill_private/tree/main/portfolio/onehundred" target="_blank">
 							<img src="https://img.shields.io/badge/Repo-lightgrey?style=for-the-badge&logo=github"/>
-						</a>  
+						</a>   -->
 						<a href="https://victoriafloreshill.com/portfolio/onehundred/index.html" target="_blank">
               <img src="https://img.shields.io/badge/Live-lightgrey?style=for-the-badge&color=0892d0"/>
 						</a>
