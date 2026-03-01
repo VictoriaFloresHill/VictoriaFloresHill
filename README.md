@@ -57,7 +57,7 @@
 				<h3 align="center">Onehundred</h3>
 				<div align="center">  
 					<a href='https://victoriafloreshill.com/portfolio/onehundred/index.html' target="_blank">
-						<img src="https://github.com/VictoriaFloresHill/victoriaFloresHill_private/blob/main/portfolio/onehundred/Screenshot_hero_crop_square.x424png.png" alt="Onehundred" height="100%" />
+						<img src="https://github.com/VictoriaFloresHill/VictoriaFloresHill/blob/main/portfolio/Screenshot_hero_crop_square.x424png.png" alt="Onehundred" height="100%" />
 					</a>
 					<br>
 					<br>
